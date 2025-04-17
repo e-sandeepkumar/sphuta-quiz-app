@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of France?",
+    "options": ["Paris", "London", "Berlin", "Rome"],
+    "answer": "Paris"
+  },
+  {
+    "id": 2,
+    "question": "Which is the largest planet in our solar system?",
+    "options": ["Earth", "Venus", "Jupiter", "Mars"],
+    "answer": "Jupiter"
+  },
+{
+    "id": 3,
+    "question": "What is the chemical symbol for gold?",
+    "options": ["Au", "Ag", "Pb", "Fe"],
+    "answer": "Au"
+  },
+  {
+    "id": 4,
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "options": ["Charles Dickens", "William Shakespeare", "Mark Twain", "Jane Austen"],
+    "answer": "William Shakespeare"
+  },
+  {
+    "id": 5,
+    "question": "What is the largest mammal in the world?",
+    "options": ["Elephant", "Blue Whale", "Giraffe", "Great White Shark"],
+    "answer": "Blue Whale"
+  }
+]
