@@ -1,32 +1,541 @@
 [
   {
     "id": 1,
-    "question": "What is the capital of France?",
-    "options": ["Paris", "London", "Berlin", "Rome"],
-    "answer": "Paris"
+    "question": "What is the size of an int variable in Java?",
+    "options": [
+      "4 bytes",
+      "2 bytes",
+      "8 bytes",
+      "Depends on the system"
+    ],
+    "answer": "4 bytes"
   },
   {
     "id": 2,
-    "question": "Which is the largest planet in our solar system?",
-    "options": ["Earth", "Venus", "Jupiter", "Mars"],
-    "answer": "Jupiter"
+    "question": "Which of the following is not a Java keyword?",
+    "options": [
+      "static",
+      "Boolean",
+      "void",
+      "private"
+    ],
+    "answer": "Boolean"
   },
-{
+  {
     "id": 3,
-    "question": "What is the chemical symbol for gold?",
-    "options": ["Au", "Ag", "Pb", "Fe"],
-    "answer": "Au"
+    "question": "Which method is the entry point of a Java program?",
+    "options": [
+      "main()",
+      "start()",
+      "run()",
+      "init()"
+    ],
+    "answer": "main()"
   },
   {
     "id": 4,
-    "question": "Who wrote 'Romeo and Juliet'?",
-    "options": ["Charles Dickens", "William Shakespeare", "Mark Twain", "Jane Austen"],
-    "answer": "William Shakespeare"
+    "question": "Which of these cannot be used for a variable name in Java?",
+    "options": [
+      "_name",
+      "$amount",
+      "1value",
+      "myVar"
+    ],
+    "answer": "1value"
   },
   {
     "id": 5,
-    "question": "What is the largest mammal in the world?",
-    "options": ["Elephant", "Blue Whale", "Giraffe", "Great White Shark"],
-    "answer": "Blue Whale"
+    "question": "What is the superclass of all classes in Java?",
+    "options": [
+      "Object",
+      "Class",
+      "Superclass",
+      "Base"
+    ],
+    "answer": "Object"
+  },
+  {
+    "id": 6,
+    "question": "Which package contains the Random class?",
+    "options": [
+      "java.util",
+      "java.lang",
+      "java.io",
+      "java.net"
+    ],
+    "answer": "java.util"
+  },
+  {
+    "id": 7,
+    "question": "Which operator is used to compare two values?",
+    "options": [
+      "==",
+      "=",
+      "!=",
+      "<>"
+    ],
+    "answer": "=="
+  },
+  {
+    "id": 8,
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": [
+      "extends",
+      "implements",
+      "super",
+      "this"
+    ],
+    "answer": "extends"
+  },
+  {
+    "id": 9,
+    "question": "What does JVM stand for?",
+    "options": [
+      "Java Virtual Machine",
+      "Java Verified Machine",
+      "Just Virtual Machine",
+      "Java Variable Method"
+    ],
+    "answer": "Java Virtual Machine"
+  },
+  {
+    "id": 10,
+    "question": "Which of these is a loop structure in Java?",
+    "options": [
+      "for",
+      "foreach",
+      "repeat",
+      "do-then"
+    ],
+    "answer": "for"
+  },
+  {
+    "id": 11,
+    "question": "Which of the following is not a primitive data type?",
+    "options": [
+      "float",
+      "boolean",
+      "String",
+      "int"
+    ],
+    "answer": "String"
+  },
+  {
+    "id": 12,
+    "question": "Which method is used to get the length of a string?",
+    "options": [
+      "length()",
+      "size()",
+      "getLength()",
+      "count()"
+    ],
+    "answer": "length()"
+  },
+  {
+    "id": 13,
+    "question": "Which keyword is used to handle exceptions?",
+    "options": [
+      "try",
+      "catch",
+      "throw",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 14,
+    "question": "Which exception is thrown when a divided by zero occurs?",
+    "options": [
+      "ArithmeticException",
+      "NullPointerException",
+      "NumberFormatException",
+      "IOException"
+    ],
+    "answer": "ArithmeticException"
+  },
+  {
+    "id": 15,
+    "question": "Which keyword is used to create an object?",
+    "options": [
+      "new",
+      "class",
+      "this",
+      "static"
+    ],
+    "answer": "new"
+  },
+  {
+    "id": 16,
+    "question": "Java is ___",
+    "options": [
+      "Compiled",
+      "Interpreted",
+      "Both",
+      "None"
+    ],
+    "answer": "Both"
+  },
+  {
+    "id": 17,
+    "question": "Which method is used to start a thread?",
+    "options": [
+      "start()",
+      "run()",
+      "init()",
+      "begin()"
+    ],
+    "answer": "start()"
+  },
+  {
+    "id": 18,
+    "question": "Which interface provides capability to store objects using key-value pairs?",
+    "options": [
+      "Map",
+      "List",
+      "Set",
+      "Collection"
+    ],
+    "answer": "Map"
+  },
+  {
+    "id": 19,
+    "question": "What is the default value of a boolean in Java?",
+    "options": [
+      "false",
+      "true",
+      "0",
+      "null"
+    ],
+    "answer": "false"
+  },
+  {
+    "id": 20,
+    "question": "Which keyword is used to define a constant in Java?",
+    "options": [
+      "final",
+      "static",
+      "const",
+      "constant"
+    ],
+    "answer": "final"
+  },
+  {
+    "id": 21,
+    "question": "What is the file extension of compiled Java classes?",
+    "options": [
+      ".class",
+      ".java",
+      ".exe",
+      ".jar"
+    ],
+    "answer": ".class"
+  },
+  {
+    "id": 22,
+    "question": "Which tool is used to compile Java code?",
+    "options": [
+      "javac",
+      "java",
+      "javadoc",
+      "jar"
+    ],
+    "answer": "javac"
+  },
+  {
+    "id": 23,
+    "question": "Which keyword is used to refer the current object?",
+    "options": [
+      "this",
+      "super",
+      "self",
+      "object"
+    ],
+    "answer": "this"
+  },
+  {
+    "id": 24,
+    "question": "Which keyword is used to call the parent class constructor?",
+    "options": [
+      "super",
+      "parent",
+      "base",
+      "this"
+    ],
+    "answer": "super"
+  },
+  {
+    "id": 25,
+    "question": "Which of the following is a marker interface?",
+    "options": [
+      "Serializable",
+      "Runnable",
+      "Cloneable",
+      "Comparable"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "id": 26,
+    "question": "Which class is used to take input from the user?",
+    "options": [
+      "Scanner",
+      "Input",
+      "Reader",
+      "Buffer"
+    ],
+    "answer": "Scanner"
+  },
+  {
+    "id": 27,
+    "question": "Which collection allows duplicate elements?",
+    "options": [
+      "List",
+      "Set",
+      "Map",
+      "HashSet"
+    ],
+    "answer": "List"
+  },
+  {
+    "id": 28,
+    "question": "Which class is immutable in Java?",
+    "options": [
+      "String",
+      "StringBuilder",
+      "ArrayList",
+      "HashMap"
+    ],
+    "answer": "String"
+  },
+  {
+    "id": 29,
+    "question": "Which operator is used for bitwise AND in Java?",
+    "options": [
+      "&",
+      "&&",
+      "|",
+      "^"
+    ],
+    "answer": "&"
+  },
+  {
+    "id": 30,
+    "question": "Which keyword makes a method not overrideable?",
+    "options": [
+      "final",
+      "private",
+      "static",
+      "abstract"
+    ],
+    "answer": "final"
+  },
+  {
+    "id": 31,
+    "question": "What is the size of float in Java?",
+    "options": [
+      "4 bytes",
+      "8 bytes",
+      "2 bytes",
+      "Depends on JVM"
+    ],
+    "answer": "4 bytes"
+  },
+  {
+    "id": 32,
+    "question": "Which access modifier allows access within the same package?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "id": 33,
+    "question": "Which class is used for dynamic string modification?",
+    "options": [
+      "StringBuilder",
+      "String",
+      "Buffer",
+      "CharSequence"
+    ],
+    "answer": "StringBuilder"
+  },
+  {
+    "id": 34,
+    "question": "Which method is called when an object is garbage collected?",
+    "options": [
+      "finalize()",
+      "destroy()",
+      "clean()",
+      "dispose()"
+    ],
+    "answer": "finalize()"
+  },
+  {
+    "id": 35,
+    "question": "What is the result of 10 % 3 in Java?",
+    "options": [
+      "1",
+      "3",
+      "0",
+      "2"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 36,
+    "question": "Which annotation is used for overriding a method?",
+    "options": [
+      "@Override",
+      "@Overload",
+      "@OverWrite",
+      "@Method"
+    ],
+    "answer": "@Override"
+  },
+  {
+    "id": 37,
+    "question": "Which is not a valid loop in Java?",
+    "options": [
+      "repeat",
+      "for",
+      "do-while",
+      "while"
+    ],
+    "answer": "repeat"
+  },
+  {
+    "id": 38,
+    "question": "Which keyword is used to define an abstract class?",
+    "options": [
+      "abstract",
+      "interface",
+      "base",
+      "virtual"
+    ],
+    "answer": "abstract"
+  },
+  {
+    "id": 39,
+    "question": "Which collection maintains insertion order?",
+    "options": [
+      "LinkedHashMap",
+      "HashMap",
+      "TreeSet",
+      "Set"
+    ],
+    "answer": "LinkedHashMap"
+  },
+  {
+    "id": 40,
+    "question": "Which keyword is used for method overloading?",
+    "options": [
+      "No keyword",
+      "override",
+      "extends",
+      "overload"
+    ],
+    "answer": "No keyword"
+  },
+  {
+    "id": 41,
+    "question": "Which type of exception is checked during compilation?",
+    "options": [
+      "Checked Exception",
+      "Runtime Exception",
+      "Error",
+      "Throwable"
+    ],
+    "answer": "Checked Exception"
+  },
+  {
+    "id": 42,
+    "question": "What is the base class for all exceptions?",
+    "options": [
+      "Throwable",
+      "Exception",
+      "Object",
+      "RuntimeException"
+    ],
+    "answer": "Throwable"
+  },
+  {
+    "id": 43,
+    "question": "Which operator is used for conditional (ternary) operation?",
+    "options": [
+      "? :",
+      "if",
+      "||",
+      "&&"
+    ],
+    "answer": "? :"
+  },
+  {
+    "id": 44,
+    "question": "Which class is used for file manipulation in Java?",
+    "options": [
+      "File",
+      "Path",
+      "Files",
+      "FileReader"
+    ],
+    "answer": "File"
+  },
+  {
+    "id": 45,
+    "question": "Which method writes formatted output to console?",
+    "options": [
+      "System.out.printf",
+      "System.out.write",
+      "System.print",
+      "System.output"
+    ],
+    "answer": "System.out.printf"
+  },
+  {
+    "id": 46,
+    "question": "Which modifier makes a variable belong to the class rather than instance?",
+    "options": [
+      "static",
+      "final",
+      "public",
+      "abstract"
+    ],
+    "answer": "static"
+  },
+  {
+    "id": 47,
+    "question": "Which method returns a substring in Java?",
+    "options": [
+      "substring()",
+      "slice()",
+      "sub()",
+      "split()"
+    ],
+    "answer": "substring()"
+  },
+  {
+    "id": 48,
+    "question": "Which exception is thrown when accessing an array out of bounds?",
+    "options": [
+      "ArrayIndexOutOfBoundsException",
+      "IndexException",
+      "BoundsException",
+      "AccessException"
+    ],
+    "answer": "ArrayIndexOutOfBoundsException"
+  },
+  {
+    "id": 49,
+    "question": "Which method converts a string to integer?",
+    "options": [
+      "Integer.parseInt()",
+      "String.toInt()",
+      "toInteger()",
+      "parse()"
+    ],
+    "answer": "Integer.parseInt()"
   }
 ]
