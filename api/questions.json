@@ -1,1262 +1,4376 @@
 [
   {
     "id": 1,
-    "question": "What is the default value of a String in Java?",
+    "question": "[Java - Beginner - Java String] Question 1?",
     "options": [
-      "null",
-      "\"\"",
-      "0",
-      "undefined"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "null",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Beginner",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 2,
-    "question": "Which method compares string values in Java?",
+    "question": "[Java - Beginner - Java String] Question 2?",
     "options": [
-      "==",
-      ".equals()",
-      "compare()",
-      ".match()"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": ".equals()",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 3,
-    "question": "What does str.length() return?",
+    "question": "[Java - Beginner - Java String] Question 3?",
     "options": [
-      "Length",
-      "Size",
-      "Null",
-      "Index"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "Length",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 4,
-    "question": "What operator concatenates strings in Java?",
+    "question": "[Java - Beginner - Java String] Question 4?",
     "options": [
-      "+",
-      "&",
-      ".",
-      "*"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "+",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Beginner",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 5,
-    "question": "Is String mutable in Java?",
+    "question": "[Java - Beginner - Java String] Question 5?",
     "options": [
-      "Yes",
-      "No",
-      "Sometimes",
-      "Only in arrays"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "No",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 6,
-    "question": "Which keyword is used to handle exceptions?",
+    "question": "[Java - Beginner - Java String] Question 6?",
     "options": [
-      "try",
-      "throw",
-      "catch",
-      "final"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "catch",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
-    "topic": "Java Exception"
+    "topic": "Java String"
   },
   {
     "id": 7,
-    "question": "What is the base class of all exceptions?",
+    "question": "[Java - Beginner - Java String] Question 7?",
     "options": [
-      "Throwable",
-      "Error",
-      "Exception",
-      "Runtime"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "Throwable",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Beginner",
     "technology": "Java",
-    "topic": "Java Exception"
+    "topic": "Java String"
   },
   {
     "id": 8,
-    "question": "Which block is always executed?",
+    "question": "[Java - Beginner - Java String] Question 8?",
     "options": [
-      "try",
-      "catch",
-      "throw",
-      "finally"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "finally",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
-    "topic": "Java Exception"
+    "topic": "Java String"
   },
   {
     "id": 9,
-    "question": "Which is a checked exception?",
+    "question": "[Java - Beginner - Java String] Question 9?",
     "options": [
-      "IOException",
-      "NullPointerException",
-      "ArithmeticException",
-      "ArrayIndexOutOfBounds"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "IOException",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
-    "topic": "Java Exception"
+    "topic": "Java String"
   },
   {
     "id": 10,
-    "question": "How to manually throw exception?",
+    "question": "[Java - Beginner - Java String] Question 10?",
     "options": [
-      "throw",
-      "throws",
-      "try",
-      "new"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "throw",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 11,
+    "question": "[Java - Beginner - Java Basics] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 12,
+    "question": "[Java - Beginner - Java Basics] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 13,
+    "question": "[Java - Beginner - Java Basics] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 14,
+    "question": "[Java - Beginner - Java Basics] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 15,
+    "question": "[Java - Beginner - Java Basics] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 16,
+    "question": "[Java - Beginner - Java Basics] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 17,
+    "question": "[Java - Beginner - Java Basics] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 18,
+    "question": "[Java - Beginner - Java Basics] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 19,
+    "question": "[Java - Beginner - Java Basics] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 20,
+    "question": "[Java - Beginner - Java Basics] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 21,
+    "question": "[Java - Beginner - Java Exception] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Beginner",
     "technology": "Java",
     "topic": "Java Exception"
   },
   {
-    "id": 11,
-    "question": "Which operator is used in JOIN?",
-    "options": [
-      "=",
-      "<>",
-      "LIKE",
-      "IN"
-    ],
-    "answer": "=",
-    "level": "Beginner",
-    "technology": "SQL",
-    "topic": "SQL Joins"
-  },
-  {
-    "id": 12,
-    "question": "INNER JOIN returns?",
-    "options": [
-      "All rows",
-      "Matching rows",
-      "NULLs",
-      "Cartesian product"
-    ],
-    "answer": "Matching rows",
-    "level": "Beginner",
-    "technology": "SQL",
-    "topic": "SQL Joins"
-  },
-  {
-    "id": 13,
-    "question": "Which join includes unmatched rows?",
-    "options": [
-      "INNER",
-      "LEFT",
-      "CROSS",
-      "SELF"
-    ],
-    "answer": "LEFT",
-    "level": "Beginner",
-    "technology": "SQL",
-    "topic": "SQL Joins"
-  },
-  {
-    "id": 14,
-    "question": "Which join duplicates rows?",
-    "options": [
-      "CROSS",
-      "LEFT",
-      "INNER",
-      "RIGHT"
-    ],
-    "answer": "CROSS",
-    "level": "Beginner",
-    "technology": "SQL",
-    "topic": "SQL Joins"
-  },
-  {
-    "id": 15,
-    "question": "Which clause groups rows?",
-    "options": [
-      "GROUP BY",
-      "ORDER BY",
-      "JOIN",
-      "WHERE"
-    ],
-    "answer": "GROUP BY",
-    "level": "Beginner",
-    "technology": "SQL",
-    "topic": "SQL Joins"
-  },
-  {
-    "id": 16,
-    "question": "Which clause filters rows in SQL?",
-    "options": [
-      "GROUP BY",
-      "ORDER BY",
-      "WHERE",
-      "HAVING"
-    ],
-    "answer": "WHERE",
-    "level": "Beginner",
-    "technology": "SQL",
-    "topic": "SQL Queries"
-  },
-  {
-    "id": 17,
-    "question": "What does SELECT do?",
-    "options": [
-      "Insert data",
-      "Filter data",
-      "Retrieve data",
-      "Sort data"
-    ],
-    "answer": "Retrieve data",
-    "level": "Beginner",
-    "technology": "SQL",
-    "topic": "SQL Queries"
-  },
-  {
-    "id": 18,
-    "question": "What is used to rename column?",
-    "options": [
-      "AS",
-      "RENAME",
-      "LIKE",
-      "CHANGE"
-    ],
-    "answer": "AS",
-    "level": "Beginner",
-    "technology": "SQL",
-    "topic": "SQL Queries"
-  },
-  {
-    "id": 19,
-    "question": "Which command deletes data?",
-    "options": [
-      "DELETE",
-      "DROP",
-      "REMOVE",
-      "TRUNCATE"
-    ],
-    "answer": "DELETE",
-    "level": "Beginner",
-    "technology": "SQL",
-    "topic": "SQL Queries"
-  },
-  {
-    "id": 20,
-    "question": "Which operator finds pattern?",
-    "options": [
-      "LIKE",
-      "=",
-      "IN",
-      "JOIN"
-    ],
-    "answer": "LIKE",
-    "level": "Beginner",
-    "technology": "SQL",
-    "topic": "SQL Queries"
-  },
-  {
-    "id": 21,
-    "question": "Which format does MongoDB use?",
-    "options": [
-      "JSON",
-      "XML",
-      "CSV",
-      "HTML"
-    ],
-    "answer": "JSON",
-    "level": "Beginner",
-    "technology": "No SQL",
-    "topic": "MongoDB"
-  },
-  {
     "id": 22,
-    "question": "Which function fetches docs?",
+    "question": "[Java - Beginner - Java Exception] Question 2?",
     "options": [
-      "find()",
-      "get()",
-      "select()",
-      "show()"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "find()",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Beginner",
-    "technology": "No SQL",
-    "topic": "MongoDB"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 23,
-    "question": "What is _id?",
+    "question": "[Java - Beginner - Java Exception] Question 3?",
     "options": [
-      "Primary key",
-      "Foreign key",
-      "Index",
-      "Alias"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "Primary key",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Beginner",
-    "technology": "No SQL",
-    "topic": "MongoDB"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 24,
-    "question": "Which operator matches values?",
+    "question": "[Java - Beginner - Java Exception] Question 4?",
     "options": [
-      "$eq",
-      "$set",
-      "$find",
-      "$sort"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "$eq",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Beginner",
-    "technology": "No SQL",
-    "topic": "MongoDB"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 25,
-    "question": "How to sort results?",
+    "question": "[Java - Beginner - Java Exception] Question 5?",
     "options": [
-      "sort()",
-      "find()",
-      "order()",
-      "select()"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "sort()",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Beginner",
-    "technology": "No SQL",
-    "topic": "MongoDB"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 26,
-    "question": "Default consistency level?",
+    "question": "[Java - Beginner - Java Exception] Question 6?",
     "options": [
-      "ALL",
-      "ONE",
-      "QUORUM",
-      "TWO"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "ONE",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Beginner",
-    "technology": "No SQL",
-    "topic": "Cassandra"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 27,
-    "question": "CQL stands for?",
+    "question": "[Java - Beginner - Java Exception] Question 7?",
     "options": [
-      "Cassandra Query Language",
-      "Cassandra Quick Language",
-      "Cassandra Queue Level",
-      "Cassandra Core Layer"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "Cassandra Query Language",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Beginner",
-    "technology": "No SQL",
-    "topic": "Cassandra"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 28,
-    "question": "Which is a valid data type?",
+    "question": "[Java - Beginner - Java Exception] Question 8?",
     "options": [
-      "text",
-      "varchar",
-      "string",
-      "str"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "text",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Beginner",
-    "technology": "No SQL",
-    "topic": "Cassandra"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 29,
-    "question": "Which command creates table?",
+    "question": "[Java - Beginner - Java Exception] Question 9?",
     "options": [
-      "CREATE TABLE",
-      "NEW TABLE",
-      "MAKE TABLE",
-      "TABLE CREATE"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "CREATE TABLE",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Beginner",
-    "technology": "No SQL",
-    "topic": "Cassandra"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 30,
-    "question": "What stores multiple rows?",
+    "question": "[Java - Beginner - Java Exception] Question 10?",
     "options": [
-      "Table",
-      "Column",
-      "Keyspace",
-      "Index"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "Keyspace",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Beginner",
-    "technology": "No SQL",
-    "topic": "Cassandra"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 31,
-    "question": "What is the default value of a String in Java?",
+    "question": "[Java - Intermediate - Java String] Question 1?",
     "options": [
-      "null",
-      "\"\"",
-      "0",
-      "undefined"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "null",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Intermediate",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 32,
-    "question": "Which method compares string values in Java?",
+    "question": "[Java - Intermediate - Java String] Question 2?",
     "options": [
-      "==",
-      ".equals()",
-      "compare()",
-      ".match()"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": ".equals()",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 33,
-    "question": "What does str.length() return?",
+    "question": "[Java - Intermediate - Java String] Question 3?",
     "options": [
-      "Length",
-      "Size",
-      "Null",
-      "Index"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "Length",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 34,
-    "question": "What operator concatenates strings in Java?",
+    "question": "[Java - Intermediate - Java String] Question 4?",
     "options": [
-      "+",
-      "&",
-      ".",
-      "*"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "+",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Intermediate",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 35,
-    "question": "Is String mutable in Java?",
+    "question": "[Java - Intermediate - Java String] Question 5?",
     "options": [
-      "Yes",
-      "No",
-      "Sometimes",
-      "Only in arrays"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "No",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 36,
-    "question": "Which keyword is used to handle exceptions?",
+    "question": "[Java - Intermediate - Java String] Question 6?",
     "options": [
-      "try",
-      "throw",
-      "catch",
-      "final"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "catch",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
-    "topic": "Java Exception"
+    "topic": "Java String"
   },
   {
     "id": 37,
-    "question": "What is the base class of all exceptions?",
+    "question": "[Java - Intermediate - Java String] Question 7?",
     "options": [
-      "Throwable",
-      "Error",
-      "Exception",
-      "Runtime"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "Throwable",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Intermediate",
     "technology": "Java",
-    "topic": "Java Exception"
+    "topic": "Java String"
   },
   {
     "id": 38,
-    "question": "Which block is always executed?",
+    "question": "[Java - Intermediate - Java String] Question 8?",
     "options": [
-      "try",
-      "catch",
-      "throw",
-      "finally"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "finally",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
-    "topic": "Java Exception"
+    "topic": "Java String"
   },
   {
     "id": 39,
-    "question": "Which is a checked exception?",
+    "question": "[Java - Intermediate - Java String] Question 9?",
     "options": [
-      "IOException",
-      "NullPointerException",
-      "ArithmeticException",
-      "ArrayIndexOutOfBounds"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "IOException",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
-    "topic": "Java Exception"
+    "topic": "Java String"
   },
   {
     "id": 40,
-    "question": "How to manually throw exception?",
+    "question": "[Java - Intermediate - Java String] Question 10?",
     "options": [
-      "throw",
-      "throws",
-      "try",
-      "new"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "throw",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 41,
+    "question": "[Java - Intermediate - Java Basics] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 42,
+    "question": "[Java - Intermediate - Java Basics] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 43,
+    "question": "[Java - Intermediate - Java Basics] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 44,
+    "question": "[Java - Intermediate - Java Basics] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 45,
+    "question": "[Java - Intermediate - Java Basics] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 46,
+    "question": "[Java - Intermediate - Java Basics] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 47,
+    "question": "[Java - Intermediate - Java Basics] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 48,
+    "question": "[Java - Intermediate - Java Basics] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 49,
+    "question": "[Java - Intermediate - Java Basics] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 50,
+    "question": "[Java - Intermediate - Java Basics] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 51,
+    "question": "[Java - Intermediate - Java Exception] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Intermediate",
     "technology": "Java",
     "topic": "Java Exception"
   },
   {
-    "id": 41,
-    "question": "Which operator is used in JOIN?",
-    "options": [
-      "=",
-      "<>",
-      "LIKE",
-      "IN"
-    ],
-    "answer": "=",
-    "level": "Intermediate",
-    "technology": "SQL",
-    "topic": "SQL Joins"
-  },
-  {
-    "id": 42,
-    "question": "INNER JOIN returns?",
-    "options": [
-      "All rows",
-      "Matching rows",
-      "NULLs",
-      "Cartesian product"
-    ],
-    "answer": "Matching rows",
-    "level": "Intermediate",
-    "technology": "SQL",
-    "topic": "SQL Joins"
-  },
-  {
-    "id": 43,
-    "question": "Which join includes unmatched rows?",
-    "options": [
-      "INNER",
-      "LEFT",
-      "CROSS",
-      "SELF"
-    ],
-    "answer": "LEFT",
-    "level": "Intermediate",
-    "technology": "SQL",
-    "topic": "SQL Joins"
-  },
-  {
-    "id": 44,
-    "question": "Which join duplicates rows?",
-    "options": [
-      "CROSS",
-      "LEFT",
-      "INNER",
-      "RIGHT"
-    ],
-    "answer": "CROSS",
-    "level": "Intermediate",
-    "technology": "SQL",
-    "topic": "SQL Joins"
-  },
-  {
-    "id": 45,
-    "question": "Which clause groups rows?",
-    "options": [
-      "GROUP BY",
-      "ORDER BY",
-      "JOIN",
-      "WHERE"
-    ],
-    "answer": "GROUP BY",
-    "level": "Intermediate",
-    "technology": "SQL",
-    "topic": "SQL Joins"
-  },
-  {
-    "id": 46,
-    "question": "Which clause filters rows in SQL?",
-    "options": [
-      "GROUP BY",
-      "ORDER BY",
-      "WHERE",
-      "HAVING"
-    ],
-    "answer": "WHERE",
-    "level": "Intermediate",
-    "technology": "SQL",
-    "topic": "SQL Queries"
-  },
-  {
-    "id": 47,
-    "question": "What does SELECT do?",
-    "options": [
-      "Insert data",
-      "Filter data",
-      "Retrieve data",
-      "Sort data"
-    ],
-    "answer": "Retrieve data",
-    "level": "Intermediate",
-    "technology": "SQL",
-    "topic": "SQL Queries"
-  },
-  {
-    "id": 48,
-    "question": "What is used to rename column?",
-    "options": [
-      "AS",
-      "RENAME",
-      "LIKE",
-      "CHANGE"
-    ],
-    "answer": "AS",
-    "level": "Intermediate",
-    "technology": "SQL",
-    "topic": "SQL Queries"
-  },
-  {
-    "id": 49,
-    "question": "Which command deletes data?",
-    "options": [
-      "DELETE",
-      "DROP",
-      "REMOVE",
-      "TRUNCATE"
-    ],
-    "answer": "DELETE",
-    "level": "Intermediate",
-    "technology": "SQL",
-    "topic": "SQL Queries"
-  },
-  {
-    "id": 50,
-    "question": "Which operator finds pattern?",
-    "options": [
-      "LIKE",
-      "=",
-      "IN",
-      "JOIN"
-    ],
-    "answer": "LIKE",
-    "level": "Intermediate",
-    "technology": "SQL",
-    "topic": "SQL Queries"
-  },
-  {
-    "id": 51,
-    "question": "Which format does MongoDB use?",
-    "options": [
-      "JSON",
-      "XML",
-      "CSV",
-      "HTML"
-    ],
-    "answer": "JSON",
-    "level": "Intermediate",
-    "technology": "No SQL",
-    "topic": "MongoDB"
-  },
-  {
     "id": 52,
-    "question": "Which function fetches docs?",
+    "question": "[Java - Intermediate - Java Exception] Question 2?",
     "options": [
-      "find()",
-      "get()",
-      "select()",
-      "show()"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "find()",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Intermediate",
-    "technology": "No SQL",
-    "topic": "MongoDB"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 53,
-    "question": "What is _id?",
+    "question": "[Java - Intermediate - Java Exception] Question 3?",
     "options": [
-      "Primary key",
-      "Foreign key",
-      "Index",
-      "Alias"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "Primary key",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Intermediate",
-    "technology": "No SQL",
-    "topic": "MongoDB"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 54,
-    "question": "Which operator matches values?",
+    "question": "[Java - Intermediate - Java Exception] Question 4?",
     "options": [
-      "$eq",
-      "$set",
-      "$find",
-      "$sort"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "$eq",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Intermediate",
-    "technology": "No SQL",
-    "topic": "MongoDB"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 55,
-    "question": "How to sort results?",
+    "question": "[Java - Intermediate - Java Exception] Question 5?",
     "options": [
-      "sort()",
-      "find()",
-      "order()",
-      "select()"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "sort()",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Intermediate",
-    "technology": "No SQL",
-    "topic": "MongoDB"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 56,
-    "question": "Default consistency level?",
+    "question": "[Java - Intermediate - Java Exception] Question 6?",
     "options": [
-      "ALL",
-      "ONE",
-      "QUORUM",
-      "TWO"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "ONE",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Intermediate",
-    "technology": "No SQL",
-    "topic": "Cassandra"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 57,
-    "question": "CQL stands for?",
+    "question": "[Java - Intermediate - Java Exception] Question 7?",
     "options": [
-      "Cassandra Query Language",
-      "Cassandra Quick Language",
-      "Cassandra Queue Level",
-      "Cassandra Core Layer"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "Cassandra Query Language",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Intermediate",
-    "technology": "No SQL",
-    "topic": "Cassandra"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 58,
-    "question": "Which is a valid data type?",
+    "question": "[Java - Intermediate - Java Exception] Question 8?",
     "options": [
-      "text",
-      "varchar",
-      "string",
-      "str"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "text",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Intermediate",
-    "technology": "No SQL",
-    "topic": "Cassandra"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 59,
-    "question": "Which command creates table?",
+    "question": "[Java - Intermediate - Java Exception] Question 9?",
     "options": [
-      "CREATE TABLE",
-      "NEW TABLE",
-      "MAKE TABLE",
-      "TABLE CREATE"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "CREATE TABLE",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Intermediate",
-    "technology": "No SQL",
-    "topic": "Cassandra"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 60,
-    "question": "What stores multiple rows?",
+    "question": "[Java - Intermediate - Java Exception] Question 10?",
     "options": [
-      "Table",
-      "Column",
-      "Keyspace",
-      "Index"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "Keyspace",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Intermediate",
-    "technology": "No SQL",
-    "topic": "Cassandra"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 61,
-    "question": "What is the default value of a String in Java?",
+    "question": "[Java - Expert - Java String] Question 1?",
     "options": [
-      "null",
-      "\"\"",
-      "0",
-      "undefined"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "null",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Expert",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 62,
-    "question": "Which method compares string values in Java?",
+    "question": "[Java - Expert - Java String] Question 2?",
     "options": [
-      "==",
-      ".equals()",
-      "compare()",
-      ".match()"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": ".equals()",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 63,
-    "question": "What does str.length() return?",
+    "question": "[Java - Expert - Java String] Question 3?",
     "options": [
-      "Length",
-      "Size",
-      "Null",
-      "Index"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "Length",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 64,
-    "question": "What operator concatenates strings in Java?",
+    "question": "[Java - Expert - Java String] Question 4?",
     "options": [
-      "+",
-      "&",
-      ".",
-      "*"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "+",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Expert",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 65,
-    "question": "Is String mutable in Java?",
+    "question": "[Java - Expert - Java String] Question 5?",
     "options": [
-      "Yes",
-      "No",
-      "Sometimes",
-      "Only in arrays"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "No",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 66,
-    "question": "Which keyword is used to handle exceptions?",
+    "question": "[Java - Expert - Java String] Question 6?",
     "options": [
-      "try",
-      "throw",
-      "catch",
-      "final"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "catch",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
-    "topic": "Java Exception"
+    "topic": "Java String"
   },
   {
     "id": 67,
-    "question": "What is the base class of all exceptions?",
+    "question": "[Java - Expert - Java String] Question 7?",
     "options": [
-      "Throwable",
-      "Error",
-      "Exception",
-      "Runtime"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "Throwable",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Expert",
     "technology": "Java",
-    "topic": "Java Exception"
+    "topic": "Java String"
   },
   {
     "id": 68,
-    "question": "Which block is always executed?",
+    "question": "[Java - Expert - Java String] Question 8?",
     "options": [
-      "try",
-      "catch",
-      "throw",
-      "finally"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "finally",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
-    "topic": "Java Exception"
+    "topic": "Java String"
   },
   {
     "id": 69,
-    "question": "Which is a checked exception?",
+    "question": "[Java - Expert - Java String] Question 9?",
     "options": [
-      "IOException",
-      "NullPointerException",
-      "ArithmeticException",
-      "ArrayIndexOutOfBounds"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "IOException",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
-    "topic": "Java Exception"
+    "topic": "Java String"
   },
   {
     "id": 70,
-    "question": "How to manually throw exception?",
+    "question": "[Java - Expert - Java String] Question 10?",
     "options": [
-      "throw",
-      "throws",
-      "try",
-      "new"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "throw",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 71,
+    "question": "[Java - Expert - Java Basics] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 72,
+    "question": "[Java - Expert - Java Basics] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 73,
+    "question": "[Java - Expert - Java Basics] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 74,
+    "question": "[Java - Expert - Java Basics] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 75,
+    "question": "[Java - Expert - Java Basics] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 76,
+    "question": "[Java - Expert - Java Basics] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 77,
+    "question": "[Java - Expert - Java Basics] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 78,
+    "question": "[Java - Expert - Java Basics] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 79,
+    "question": "[Java - Expert - Java Basics] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 80,
+    "question": "[Java - Expert - Java Basics] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 81,
+    "question": "[Java - Expert - Java Exception] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Expert",
     "technology": "Java",
     "topic": "Java Exception"
   },
   {
-    "id": 71,
-    "question": "Which operator is used in JOIN?",
-    "options": [
-      "=",
-      "<>",
-      "LIKE",
-      "IN"
-    ],
-    "answer": "=",
-    "level": "Expert",
-    "technology": "SQL",
-    "topic": "SQL Joins"
-  },
-  {
-    "id": 72,
-    "question": "INNER JOIN returns?",
-    "options": [
-      "All rows",
-      "Matching rows",
-      "NULLs",
-      "Cartesian product"
-    ],
-    "answer": "Matching rows",
-    "level": "Expert",
-    "technology": "SQL",
-    "topic": "SQL Joins"
-  },
-  {
-    "id": 73,
-    "question": "Which join includes unmatched rows?",
-    "options": [
-      "INNER",
-      "LEFT",
-      "CROSS",
-      "SELF"
-    ],
-    "answer": "LEFT",
-    "level": "Expert",
-    "technology": "SQL",
-    "topic": "SQL Joins"
-  },
-  {
-    "id": 74,
-    "question": "Which join duplicates rows?",
-    "options": [
-      "CROSS",
-      "LEFT",
-      "INNER",
-      "RIGHT"
-    ],
-    "answer": "CROSS",
-    "level": "Expert",
-    "technology": "SQL",
-    "topic": "SQL Joins"
-  },
-  {
-    "id": 75,
-    "question": "Which clause groups rows?",
-    "options": [
-      "GROUP BY",
-      "ORDER BY",
-      "JOIN",
-      "WHERE"
-    ],
-    "answer": "GROUP BY",
-    "level": "Expert",
-    "technology": "SQL",
-    "topic": "SQL Joins"
-  },
-  {
-    "id": 76,
-    "question": "Which clause filters rows in SQL?",
-    "options": [
-      "GROUP BY",
-      "ORDER BY",
-      "WHERE",
-      "HAVING"
-    ],
-    "answer": "WHERE",
-    "level": "Expert",
-    "technology": "SQL",
-    "topic": "SQL Queries"
-  },
-  {
-    "id": 77,
-    "question": "What does SELECT do?",
-    "options": [
-      "Insert data",
-      "Filter data",
-      "Retrieve data",
-      "Sort data"
-    ],
-    "answer": "Retrieve data",
-    "level": "Expert",
-    "technology": "SQL",
-    "topic": "SQL Queries"
-  },
-  {
-    "id": 78,
-    "question": "What is used to rename column?",
-    "options": [
-      "AS",
-      "RENAME",
-      "LIKE",
-      "CHANGE"
-    ],
-    "answer": "AS",
-    "level": "Expert",
-    "technology": "SQL",
-    "topic": "SQL Queries"
-  },
-  {
-    "id": 79,
-    "question": "Which command deletes data?",
-    "options": [
-      "DELETE",
-      "DROP",
-      "REMOVE",
-      "TRUNCATE"
-    ],
-    "answer": "DELETE",
-    "level": "Expert",
-    "technology": "SQL",
-    "topic": "SQL Queries"
-  },
-  {
-    "id": 80,
-    "question": "Which operator finds pattern?",
-    "options": [
-      "LIKE",
-      "=",
-      "IN",
-      "JOIN"
-    ],
-    "answer": "LIKE",
-    "level": "Expert",
-    "technology": "SQL",
-    "topic": "SQL Queries"
-  },
-  {
-    "id": 81,
-    "question": "Which format does MongoDB use?",
-    "options": [
-      "JSON",
-      "XML",
-      "CSV",
-      "HTML"
-    ],
-    "answer": "JSON",
-    "level": "Expert",
-    "technology": "No SQL",
-    "topic": "MongoDB"
-  },
-  {
     "id": 82,
-    "question": "Which function fetches docs?",
+    "question": "[Java - Expert - Java Exception] Question 2?",
     "options": [
-      "find()",
-      "get()",
-      "select()",
-      "show()"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "find()",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Expert",
-    "technology": "No SQL",
-    "topic": "MongoDB"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 83,
-    "question": "What is _id?",
+    "question": "[Java - Expert - Java Exception] Question 3?",
     "options": [
-      "Primary key",
-      "Foreign key",
-      "Index",
-      "Alias"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "Primary key",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Expert",
-    "technology": "No SQL",
-    "topic": "MongoDB"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 84,
-    "question": "Which operator matches values?",
+    "question": "[Java - Expert - Java Exception] Question 4?",
     "options": [
-      "$eq",
-      "$set",
-      "$find",
-      "$sort"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "$eq",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Expert",
-    "technology": "No SQL",
-    "topic": "MongoDB"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 85,
-    "question": "How to sort results?",
+    "question": "[Java - Expert - Java Exception] Question 5?",
     "options": [
-      "sort()",
-      "find()",
-      "order()",
-      "select()"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "sort()",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Expert",
-    "technology": "No SQL",
-    "topic": "MongoDB"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 86,
-    "question": "Default consistency level?",
+    "question": "[Java - Expert - Java Exception] Question 6?",
     "options": [
-      "ALL",
-      "ONE",
-      "QUORUM",
-      "TWO"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "ONE",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Expert",
-    "technology": "No SQL",
-    "topic": "Cassandra"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 87,
-    "question": "CQL stands for?",
+    "question": "[Java - Expert - Java Exception] Question 7?",
     "options": [
-      "Cassandra Query Language",
-      "Cassandra Quick Language",
-      "Cassandra Queue Level",
-      "Cassandra Core Layer"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "Cassandra Query Language",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Expert",
-    "technology": "No SQL",
-    "topic": "Cassandra"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 88,
-    "question": "Which is a valid data type?",
+    "question": "[Java - Expert - Java Exception] Question 8?",
     "options": [
-      "text",
-      "varchar",
-      "string",
-      "str"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "text",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Expert",
-    "technology": "No SQL",
-    "topic": "Cassandra"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 89,
-    "question": "Which command creates table?",
+    "question": "[Java - Expert - Java Exception] Question 9?",
     "options": [
-      "CREATE TABLE",
-      "NEW TABLE",
-      "MAKE TABLE",
-      "TABLE CREATE"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "CREATE TABLE",
+    "answer": "Option A",
+    "multiSelect": false,
     "level": "Expert",
-    "technology": "No SQL",
-    "topic": "Cassandra"
+    "technology": "Java",
+    "topic": "Java Exception"
   },
   {
     "id": 90,
-    "question": "What stores multiple rows?",
+    "question": "[Java - Expert - Java Exception] Question 10?",
     "options": [
-      "Table",
-      "Column",
-      "Keyspace",
-      "Index"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
-    "answer": "Keyspace",
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 91,
+    "question": "[SQL - Beginner - SQL Basics] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 92,
+    "question": "[SQL - Beginner - SQL Basics] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 93,
+    "question": "[SQL - Beginner - SQL Basics] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 94,
+    "question": "[SQL - Beginner - SQL Basics] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 95,
+    "question": "[SQL - Beginner - SQL Basics] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 96,
+    "question": "[SQL - Beginner - SQL Basics] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 97,
+    "question": "[SQL - Beginner - SQL Basics] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 98,
+    "question": "[SQL - Beginner - SQL Basics] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 99,
+    "question": "[SQL - Beginner - SQL Basics] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 100,
+    "question": "[SQL - Beginner - SQL Basics] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 101,
+    "question": "[SQL - Beginner - SQL Joins] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 102,
+    "question": "[SQL - Beginner - SQL Joins] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 103,
+    "question": "[SQL - Beginner - SQL Joins] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 104,
+    "question": "[SQL - Beginner - SQL Joins] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 105,
+    "question": "[SQL - Beginner - SQL Joins] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 106,
+    "question": "[SQL - Beginner - SQL Joins] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 107,
+    "question": "[SQL - Beginner - SQL Joins] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 108,
+    "question": "[SQL - Beginner - SQL Joins] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 109,
+    "question": "[SQL - Beginner - SQL Joins] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 110,
+    "question": "[SQL - Beginner - SQL Joins] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 111,
+    "question": "[SQL - Beginner - SQL Subqueries] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 112,
+    "question": "[SQL - Beginner - SQL Subqueries] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 113,
+    "question": "[SQL - Beginner - SQL Subqueries] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 114,
+    "question": "[SQL - Beginner - SQL Subqueries] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 115,
+    "question": "[SQL - Beginner - SQL Subqueries] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 116,
+    "question": "[SQL - Beginner - SQL Subqueries] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 117,
+    "question": "[SQL - Beginner - SQL Subqueries] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 118,
+    "question": "[SQL - Beginner - SQL Subqueries] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 119,
+    "question": "[SQL - Beginner - SQL Subqueries] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 120,
+    "question": "[SQL - Beginner - SQL Subqueries] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 121,
+    "question": "[SQL - Intermediate - SQL Basics] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 122,
+    "question": "[SQL - Intermediate - SQL Basics] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 123,
+    "question": "[SQL - Intermediate - SQL Basics] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 124,
+    "question": "[SQL - Intermediate - SQL Basics] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 125,
+    "question": "[SQL - Intermediate - SQL Basics] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 126,
+    "question": "[SQL - Intermediate - SQL Basics] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 127,
+    "question": "[SQL - Intermediate - SQL Basics] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 128,
+    "question": "[SQL - Intermediate - SQL Basics] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 129,
+    "question": "[SQL - Intermediate - SQL Basics] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 130,
+    "question": "[SQL - Intermediate - SQL Basics] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 131,
+    "question": "[SQL - Intermediate - SQL Joins] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 132,
+    "question": "[SQL - Intermediate - SQL Joins] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 133,
+    "question": "[SQL - Intermediate - SQL Joins] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 134,
+    "question": "[SQL - Intermediate - SQL Joins] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 135,
+    "question": "[SQL - Intermediate - SQL Joins] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 136,
+    "question": "[SQL - Intermediate - SQL Joins] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 137,
+    "question": "[SQL - Intermediate - SQL Joins] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 138,
+    "question": "[SQL - Intermediate - SQL Joins] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 139,
+    "question": "[SQL - Intermediate - SQL Joins] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 140,
+    "question": "[SQL - Intermediate - SQL Joins] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 141,
+    "question": "[SQL - Intermediate - SQL Subqueries] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 142,
+    "question": "[SQL - Intermediate - SQL Subqueries] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 143,
+    "question": "[SQL - Intermediate - SQL Subqueries] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 144,
+    "question": "[SQL - Intermediate - SQL Subqueries] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 145,
+    "question": "[SQL - Intermediate - SQL Subqueries] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 146,
+    "question": "[SQL - Intermediate - SQL Subqueries] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 147,
+    "question": "[SQL - Intermediate - SQL Subqueries] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 148,
+    "question": "[SQL - Intermediate - SQL Subqueries] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 149,
+    "question": "[SQL - Intermediate - SQL Subqueries] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 150,
+    "question": "[SQL - Intermediate - SQL Subqueries] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 151,
+    "question": "[SQL - Expert - SQL Basics] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 152,
+    "question": "[SQL - Expert - SQL Basics] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 153,
+    "question": "[SQL - Expert - SQL Basics] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 154,
+    "question": "[SQL - Expert - SQL Basics] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 155,
+    "question": "[SQL - Expert - SQL Basics] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 156,
+    "question": "[SQL - Expert - SQL Basics] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 157,
+    "question": "[SQL - Expert - SQL Basics] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 158,
+    "question": "[SQL - Expert - SQL Basics] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 159,
+    "question": "[SQL - Expert - SQL Basics] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 160,
+    "question": "[SQL - Expert - SQL Basics] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Basics"
+  },
+  {
+    "id": 161,
+    "question": "[SQL - Expert - SQL Joins] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 162,
+    "question": "[SQL - Expert - SQL Joins] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 163,
+    "question": "[SQL - Expert - SQL Joins] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 164,
+    "question": "[SQL - Expert - SQL Joins] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 165,
+    "question": "[SQL - Expert - SQL Joins] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 166,
+    "question": "[SQL - Expert - SQL Joins] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 167,
+    "question": "[SQL - Expert - SQL Joins] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 168,
+    "question": "[SQL - Expert - SQL Joins] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 169,
+    "question": "[SQL - Expert - SQL Joins] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 170,
+    "question": "[SQL - Expert - SQL Joins] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 171,
+    "question": "[SQL - Expert - SQL Subqueries] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 172,
+    "question": "[SQL - Expert - SQL Subqueries] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 173,
+    "question": "[SQL - Expert - SQL Subqueries] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 174,
+    "question": "[SQL - Expert - SQL Subqueries] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 175,
+    "question": "[SQL - Expert - SQL Subqueries] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 176,
+    "question": "[SQL - Expert - SQL Subqueries] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 177,
+    "question": "[SQL - Expert - SQL Subqueries] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 178,
+    "question": "[SQL - Expert - SQL Subqueries] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 179,
+    "question": "[SQL - Expert - SQL Subqueries] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 180,
+    "question": "[SQL - Expert - SQL Subqueries] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 181,
+    "question": "[No SQL - Beginner - MongoDB Basics] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 182,
+    "question": "[No SQL - Beginner - MongoDB Basics] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 183,
+    "question": "[No SQL - Beginner - MongoDB Basics] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 184,
+    "question": "[No SQL - Beginner - MongoDB Basics] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 185,
+    "question": "[No SQL - Beginner - MongoDB Basics] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 186,
+    "question": "[No SQL - Beginner - MongoDB Basics] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 187,
+    "question": "[No SQL - Beginner - MongoDB Basics] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 188,
+    "question": "[No SQL - Beginner - MongoDB Basics] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 189,
+    "question": "[No SQL - Beginner - MongoDB Basics] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 190,
+    "question": "[No SQL - Beginner - MongoDB Basics] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 191,
+    "question": "[No SQL - Beginner - MongoDB Query] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 192,
+    "question": "[No SQL - Beginner - MongoDB Query] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 193,
+    "question": "[No SQL - Beginner - MongoDB Query] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 194,
+    "question": "[No SQL - Beginner - MongoDB Query] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 195,
+    "question": "[No SQL - Beginner - MongoDB Query] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 196,
+    "question": "[No SQL - Beginner - MongoDB Query] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 197,
+    "question": "[No SQL - Beginner - MongoDB Query] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 198,
+    "question": "[No SQL - Beginner - MongoDB Query] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 199,
+    "question": "[No SQL - Beginner - MongoDB Query] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 200,
+    "question": "[No SQL - Beginner - MongoDB Query] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 201,
+    "question": "[No SQL - Beginner - MongoDB Indexes] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 202,
+    "question": "[No SQL - Beginner - MongoDB Indexes] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 203,
+    "question": "[No SQL - Beginner - MongoDB Indexes] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 204,
+    "question": "[No SQL - Beginner - MongoDB Indexes] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 205,
+    "question": "[No SQL - Beginner - MongoDB Indexes] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 206,
+    "question": "[No SQL - Beginner - MongoDB Indexes] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 207,
+    "question": "[No SQL - Beginner - MongoDB Indexes] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 208,
+    "question": "[No SQL - Beginner - MongoDB Indexes] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 209,
+    "question": "[No SQL - Beginner - MongoDB Indexes] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 210,
+    "question": "[No SQL - Beginner - MongoDB Indexes] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 211,
+    "question": "[No SQL - Intermediate - MongoDB Basics] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 212,
+    "question": "[No SQL - Intermediate - MongoDB Basics] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 213,
+    "question": "[No SQL - Intermediate - MongoDB Basics] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 214,
+    "question": "[No SQL - Intermediate - MongoDB Basics] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 215,
+    "question": "[No SQL - Intermediate - MongoDB Basics] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 216,
+    "question": "[No SQL - Intermediate - MongoDB Basics] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 217,
+    "question": "[No SQL - Intermediate - MongoDB Basics] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 218,
+    "question": "[No SQL - Intermediate - MongoDB Basics] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 219,
+    "question": "[No SQL - Intermediate - MongoDB Basics] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 220,
+    "question": "[No SQL - Intermediate - MongoDB Basics] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 221,
+    "question": "[No SQL - Intermediate - MongoDB Query] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 222,
+    "question": "[No SQL - Intermediate - MongoDB Query] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 223,
+    "question": "[No SQL - Intermediate - MongoDB Query] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 224,
+    "question": "[No SQL - Intermediate - MongoDB Query] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 225,
+    "question": "[No SQL - Intermediate - MongoDB Query] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 226,
+    "question": "[No SQL - Intermediate - MongoDB Query] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 227,
+    "question": "[No SQL - Intermediate - MongoDB Query] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 228,
+    "question": "[No SQL - Intermediate - MongoDB Query] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 229,
+    "question": "[No SQL - Intermediate - MongoDB Query] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 230,
+    "question": "[No SQL - Intermediate - MongoDB Query] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 231,
+    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 232,
+    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 233,
+    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 234,
+    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 235,
+    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 236,
+    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 237,
+    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 238,
+    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 239,
+    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 240,
+    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 241,
+    "question": "[No SQL - Expert - MongoDB Basics] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
     "level": "Expert",
     "technology": "No SQL",
-    "topic": "Cassandra"
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 242,
+    "question": "[No SQL - Expert - MongoDB Basics] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 243,
+    "question": "[No SQL - Expert - MongoDB Basics] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 244,
+    "question": "[No SQL - Expert - MongoDB Basics] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 245,
+    "question": "[No SQL - Expert - MongoDB Basics] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 246,
+    "question": "[No SQL - Expert - MongoDB Basics] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 247,
+    "question": "[No SQL - Expert - MongoDB Basics] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 248,
+    "question": "[No SQL - Expert - MongoDB Basics] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 249,
+    "question": "[No SQL - Expert - MongoDB Basics] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 250,
+    "question": "[No SQL - Expert - MongoDB Basics] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Basics"
+  },
+  {
+    "id": 251,
+    "question": "[No SQL - Expert - MongoDB Query] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 252,
+    "question": "[No SQL - Expert - MongoDB Query] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 253,
+    "question": "[No SQL - Expert - MongoDB Query] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 254,
+    "question": "[No SQL - Expert - MongoDB Query] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 255,
+    "question": "[No SQL - Expert - MongoDB Query] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 256,
+    "question": "[No SQL - Expert - MongoDB Query] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 257,
+    "question": "[No SQL - Expert - MongoDB Query] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 258,
+    "question": "[No SQL - Expert - MongoDB Query] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 259,
+    "question": "[No SQL - Expert - MongoDB Query] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 260,
+    "question": "[No SQL - Expert - MongoDB Query] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 261,
+    "question": "[No SQL - Expert - MongoDB Indexes] Question 1?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 262,
+    "question": "[No SQL - Expert - MongoDB Indexes] Question 2?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 263,
+    "question": "[No SQL - Expert - MongoDB Indexes] Question 3?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 264,
+    "question": "[No SQL - Expert - MongoDB Indexes] Question 4?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 265,
+    "question": "[No SQL - Expert - MongoDB Indexes] Question 5?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 266,
+    "question": "[No SQL - Expert - MongoDB Indexes] Question 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 267,
+    "question": "[No SQL - Expert - MongoDB Indexes] Question 7?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 268,
+    "question": "[No SQL - Expert - MongoDB Indexes] Question 8?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 269,
+    "question": "[No SQL - Expert - MongoDB Indexes] Question 9?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": "Option A",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 270,
+    "question": "[No SQL - Expert - MongoDB Indexes] Question 10?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": [
+      "Option A",
+      "Option B"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
   }
 ]
