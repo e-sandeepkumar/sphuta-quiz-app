@@ -10,7 +10,7 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
   const [timer, setTimer] = useState(600); // 10 minutes
   const navigate = useNavigate();
 
-  // ✅ Load questions from Vercel backend API
+  // ✅ Load questions from backend API
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
@@ -32,7 +32,7 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
     fetchQuestions();
   }, [examDetails]);
 
-  // ✅ Global countdown timer
+  // ✅ Countdown timer
   useEffect(() => {
     const interval = setInterval(() => {
       setTimer((prev) => {
@@ -54,14 +54,35 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
   };
 
   const handleOptionSelect = (option) => {
-    setSelected((prev) => ({ ...prev, [current]: option }));
+    const question = questions[current];
+    if (question.multiSelect) {
+      const prev = selected[current] || [];
+      if (prev.includes(option)) {
+        setSelected({ ...selected, [current]: prev.filter((o) => o !== option) });
+      } else {
+        setSelected({ ...selected, [current]: [...prev, option] });
+      }
+    } else {
+      setSelected({ ...selected, [current]: option });
+    }
   };
 
-  // ✅ Final score submission to SheetDB + redirect to result
+  // ✅ Final submit logic with scoring and SheetDB POST
   const handleSubmit = async () => {
     let count = 0;
     questions.forEach((q, i) => {
-      if (selected[i] === q.answer) count++;
+      const userAnswer = selected[i];
+
+      if (q.multiSelect) {
+        const correctSet = new Set(q.answer);
+        const selectedSet = new Set(userAnswer || []);
+        const isCorrect =
+          correctSet.size === selectedSet.size &&
+          [...correctSet].every((val) => selectedSet.has(val));
+        if (isCorrect) count++;
+      } else {
+        if (userAnswer === q.answer) count++;
+      }
     });
 
     try {
@@ -73,12 +94,13 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
           Timestamp: new Date().toISOString(),
           Level: examDetails.level,
           Technology: examDetails.technology,
-          Topic: examDetails.topic
+          Topic: examDetails.topic,
+          AttemptID: `${user}-${examDetails.level}-${examDetails.technology}-${examDetails.topic}-${Date.now()}`
         }
       });
-      console.log("✅ Result submitted to SheetDB");
+      console.log('✅ Submitted score to SheetDB');
     } catch (err) {
-      console.error("❌ Error submitting to SheetDB:", err);
+      console.error('❌ Failed to submit to SheetDB:', err);
     }
 
     setScoreData({ score: count, total: questions.length });
@@ -121,7 +143,6 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
         >
           Previous
         </button>
-
         {current === questions.length - 1 ? (
           <button
             onClick={handleSubmit}
