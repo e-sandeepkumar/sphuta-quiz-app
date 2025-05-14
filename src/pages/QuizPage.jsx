@@ -14,7 +14,7 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        const res = await axios.get('https://sphuta-quiz-app-453b.vercel.app/api/questions', {
+        const res = await axios.get('https://sphuta-quiz-pg3kl2e2v-sandeepkumar-es-projects.vercel.app/api/questions', {
           params: {
             level: examDetails.level,
             technology: examDetails.technology,
