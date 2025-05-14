@@ -1,3 +1,4 @@
+// QuestionCard.jsx
 import { useEffect, useState } from 'react';
 
 export default function QuestionCard({ questionData, selected, onSelect, visibleOptions }) {
@@ -5,7 +6,7 @@ export default function QuestionCard({ questionData, selected, onSelect, visible
 
   const handleChange = (option) => {
     if (isMulti) {
-      const current = selected || [];
+      const current = Array.isArray(selected) ? selected : [];
       if (current.includes(option)) {
         onSelect(current.filter((item) => item !== option));
       } else {
@@ -14,6 +15,8 @@ export default function QuestionCard({ questionData, selected, onSelect, visible
     } else {
       onSelect(option);
     }
+console.log('Selected:', selected);
+console.log('Option clicked:', option);
   };
 
   return (
@@ -42,15 +45,15 @@ export default function QuestionCard({ questionData, selected, onSelect, visible
                   value={opt}
                   checked={
                     isMulti
-                      ? selected?.includes(opt)
+                      ? Array.isArray(selected) && selected.includes(opt)
                       : selected === opt
                   }
                   onChange={() => handleChange(opt)}
-                  className="form-radio text-blue-600 h-4 w-4"
+                  className="form-checkbox text-blue-600 h-4 w-4"
                 />
               </td>
               <td className="px-2 py-2 border-b border-gray-200 dark:border-gray-600 align-middle text-left whitespace-nowrap">
-                <label className="cursor-pointer text-sm" htmlFor={`opt-${index}`}>
+                <label className="cursor-pointer text-sm">
                   {opt}
                 </label>
               </td>

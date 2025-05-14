@@ -1,3 +1,4 @@
+// QuizPage.jsx
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
@@ -7,10 +8,11 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
   const [questions, setQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState({});
-  const [timer, setTimer] = useState(600); // 10 minutes
+  const [timer, setTimer] = useState(600);
   const navigate = useNavigate();
 
-  // ✅ Load questions from backend API
+  const sessionKey = `selectedAnswers-${examDetails.level}-${examDetails.technology}-${examDetails.topic}`;
+
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
@@ -23,16 +25,24 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
         });
         setQuestions(res.data);
         setCurrent(0);
-        setSelected({});
       } catch (err) {
         console.error('Error fetching questions:', err);
       }
     };
-
     fetchQuestions();
   }, [examDetails]);
 
-  // ✅ Countdown timer
+  useEffect(() => {
+    const saved = localStorage.getItem(sessionKey);
+    if (saved) {
+      setSelected(JSON.parse(saved));
+    }
+  }, [sessionKey]);
+
+  useEffect(() => {
+    localStorage.setItem(sessionKey, JSON.stringify(selected));
+  }, [selected, sessionKey]);
+
   useEffect(() => {
     const interval = setInterval(() => {
       setTimer((prev) => {
@@ -55,19 +65,17 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
 
   const handleOptionSelect = (option) => {
     const question = questions[current];
-    if (question.multiSelect) {
-      const prev = selected[current] || [];
-      if (prev.includes(option)) {
-        setSelected({ ...selected, [current]: prev.filter((o) => o !== option) });
-      } else {
-        setSelected({ ...selected, [current]: [...prev, option] });
-      }
-    } else {
-      setSelected({ ...selected, [current]: option });
-    }
+    setSelected((prevSelected) => {
+      const prev = Array.isArray(prevSelected[current]) ? prevSelected[current] : [];
+      const updated = question.multiSelect
+        ? prev.includes(option)
+          ? prev.filter((o) => o !== option)
+          : [...prev, option]
+        : option;
+      return { ...prevSelected, [current]: updated };
+    });
   };
 
-  // ✅ Final submit logic with scoring and SheetDB POST
   const handleSubmit = async () => {
     let count = 0;
     questions.forEach((q, i) => {
@@ -98,12 +106,12 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
           AttemptID: `${user}-${examDetails.level}-${examDetails.technology}-${examDetails.topic}-${Date.now()}`
         }
       });
-      console.log('✅ Submitted score to SheetDB');
     } catch (err) {
-      console.error('❌ Failed to submit to SheetDB:', err);
+      console.error("❌ Submission failed:", err);
     }
 
     setScoreData({ score: count, total: questions.length });
+    localStorage.removeItem(sessionKey);
     navigate('/result');
   };
 
@@ -130,8 +138,10 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
 
       <QuestionCard
         questionData={questions[current]}
-        selected={selected[current]}
-        onSelect={handleOptionSelect}
+        selected={selected[current] || (questions[current].multiSelect ? [] : '')}
+        onSelect={(updated) =>
+          setSelected((prev) => ({ ...prev, [current]: updated }))
+        }
         visibleOptions={questions[current]?.options}
       />
 
