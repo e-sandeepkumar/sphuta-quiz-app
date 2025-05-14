@@ -1,11 +1,10 @@
-// api/questions.js
 const fs = require('fs');
 const path = require('path');
 
 module.exports = (req, res) => {
   const { level, technology, topic } = req.query;
 
-  const filePath = path.resolve('./api/questions.json');
+  const filePath = path.resolve(__dirname, './questions.json');
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
   const filtered = data.filter(q =>
