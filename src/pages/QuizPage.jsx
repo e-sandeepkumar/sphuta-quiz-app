@@ -10,11 +10,10 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
   const [timer, setTimer] = useState(600);
   const navigate = useNavigate();
 
-  // ✅ Fetch questions from backend API
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        const res = await axios.get('https://your-vercel-app.vercel.app/api/questions', {
+        const res = await axios.get('https://your-vercel-project.vercel.app/api/questions', {
           params: {
             level: examDetails.level,
             technology: examDetails.technology,
@@ -28,11 +27,9 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
         console.error('Error fetching questions:', err);
       }
     };
-
     fetchQuestions();
   }, [examDetails]);
 
-  // ⏱ Timer countdown
   useEffect(() => {
     const interval = setInterval(() => {
       setTimer((prev) => {
@@ -57,22 +54,6 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
       if (selected[i] === q.answer) count++;
     });
 
-    try {
-      await axios.post('https://sheetdb.io/api/v1/YOUR_API_KEY', {
-        data: {
-          Username: user,
-          Score: count,
-          Total: questions.length,
-          Timestamp: new Date().toISOString(),
-          Level: examDetails.level,
-          Technology: examDetails.technology,
-          Topic: examDetails.topic
-        }
-      });
-    } catch (err) {
-      console.error("Error submitting to SheetDB:", err);
-    }
-
     setScoreData({ score: count, total: questions.length });
     navigate('/result');
   };
@@ -84,7 +65,7 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
   };
 
   if (questions.length === 0) {
-    return <div className="text-center mt-20 text-lg">No questions found.</div>;
+    return <div className="text-center mt-20 text-lg">Loading questions...</div>;
   }
 
   return (
@@ -119,7 +100,6 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
         >
           Previous
         </button>
-
         {current === questions.length - 1 ? (
           <button
             onClick={handleSubmit}
