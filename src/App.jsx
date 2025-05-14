@@ -15,16 +15,20 @@ export default function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
-    document.documentElement.classList.toggle('dark', darkMode);
+    if (darkMode) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
   }, [darkMode]);
 
   return (
     <Router>
-      <div className="min-h-screen bg-gray-100 dark:bg-gray-800 transition-all">
+      <div className="min-h-screen flex flex-col items-center justify-center bg-white text-black dark:bg-gray-900 dark:text-white transition-colors duration-300">
         <div className="absolute top-4 right-4">
           <button
             onClick={() => setDarkMode(!darkMode)}
-            className="bg-yellow-400 dark:bg-blue-900 text-white px-3 py-1 rounded"
+            className="px-4 py-2 bg-blue-500 text-white rounded"
           >
             {darkMode ? '☀️ Light' : '🌙 Dark'}
           </button>

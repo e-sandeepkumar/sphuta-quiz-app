@@ -1,0 +1,1262 @@
+[
+  {
+    "id": 1,
+    "question": "What is the default value of a String in Java?",
+    "options": [
+      "null",
+      "\"\"",
+      "0",
+      "undefined"
+    ],
+    "answer": "null",
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 2,
+    "question": "Which method compares string values in Java?",
+    "options": [
+      "==",
+      ".equals()",
+      "compare()",
+      ".match()"
+    ],
+    "answer": ".equals()",
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 3,
+    "question": "What does str.length() return?",
+    "options": [
+      "Length",
+      "Size",
+      "Null",
+      "Index"
+    ],
+    "answer": "Length",
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 4,
+    "question": "What operator concatenates strings in Java?",
+    "options": [
+      "+",
+      "&",
+      ".",
+      "*"
+    ],
+    "answer": "+",
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 5,
+    "question": "Is String mutable in Java?",
+    "options": [
+      "Yes",
+      "No",
+      "Sometimes",
+      "Only in arrays"
+    ],
+    "answer": "No",
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 6,
+    "question": "Which keyword is used to handle exceptions?",
+    "options": [
+      "try",
+      "throw",
+      "catch",
+      "final"
+    ],
+    "answer": "catch",
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 7,
+    "question": "What is the base class of all exceptions?",
+    "options": [
+      "Throwable",
+      "Error",
+      "Exception",
+      "Runtime"
+    ],
+    "answer": "Throwable",
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 8,
+    "question": "Which block is always executed?",
+    "options": [
+      "try",
+      "catch",
+      "throw",
+      "finally"
+    ],
+    "answer": "finally",
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 9,
+    "question": "Which is a checked exception?",
+    "options": [
+      "IOException",
+      "NullPointerException",
+      "ArithmeticException",
+      "ArrayIndexOutOfBounds"
+    ],
+    "answer": "IOException",
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 10,
+    "question": "How to manually throw exception?",
+    "options": [
+      "throw",
+      "throws",
+      "try",
+      "new"
+    ],
+    "answer": "throw",
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 11,
+    "question": "Which operator is used in JOIN?",
+    "options": [
+      "=",
+      "<>",
+      "LIKE",
+      "IN"
+    ],
+    "answer": "=",
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 12,
+    "question": "INNER JOIN returns?",
+    "options": [
+      "All rows",
+      "Matching rows",
+      "NULLs",
+      "Cartesian product"
+    ],
+    "answer": "Matching rows",
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 13,
+    "question": "Which join includes unmatched rows?",
+    "options": [
+      "INNER",
+      "LEFT",
+      "CROSS",
+      "SELF"
+    ],
+    "answer": "LEFT",
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 14,
+    "question": "Which join duplicates rows?",
+    "options": [
+      "CROSS",
+      "LEFT",
+      "INNER",
+      "RIGHT"
+    ],
+    "answer": "CROSS",
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 15,
+    "question": "Which clause groups rows?",
+    "options": [
+      "GROUP BY",
+      "ORDER BY",
+      "JOIN",
+      "WHERE"
+    ],
+    "answer": "GROUP BY",
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 16,
+    "question": "Which clause filters rows in SQL?",
+    "options": [
+      "GROUP BY",
+      "ORDER BY",
+      "WHERE",
+      "HAVING"
+    ],
+    "answer": "WHERE",
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Queries"
+  },
+  {
+    "id": 17,
+    "question": "What does SELECT do?",
+    "options": [
+      "Insert data",
+      "Filter data",
+      "Retrieve data",
+      "Sort data"
+    ],
+    "answer": "Retrieve data",
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Queries"
+  },
+  {
+    "id": 18,
+    "question": "What is used to rename column?",
+    "options": [
+      "AS",
+      "RENAME",
+      "LIKE",
+      "CHANGE"
+    ],
+    "answer": "AS",
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Queries"
+  },
+  {
+    "id": 19,
+    "question": "Which command deletes data?",
+    "options": [
+      "DELETE",
+      "DROP",
+      "REMOVE",
+      "TRUNCATE"
+    ],
+    "answer": "DELETE",
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Queries"
+  },
+  {
+    "id": 20,
+    "question": "Which operator finds pattern?",
+    "options": [
+      "LIKE",
+      "=",
+      "IN",
+      "JOIN"
+    ],
+    "answer": "LIKE",
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Queries"
+  },
+  {
+    "id": 21,
+    "question": "Which format does MongoDB use?",
+    "options": [
+      "JSON",
+      "XML",
+      "CSV",
+      "HTML"
+    ],
+    "answer": "JSON",
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB"
+  },
+  {
+    "id": 22,
+    "question": "Which function fetches docs?",
+    "options": [
+      "find()",
+      "get()",
+      "select()",
+      "show()"
+    ],
+    "answer": "find()",
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB"
+  },
+  {
+    "id": 23,
+    "question": "What is _id?",
+    "options": [
+      "Primary key",
+      "Foreign key",
+      "Index",
+      "Alias"
+    ],
+    "answer": "Primary key",
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB"
+  },
+  {
+    "id": 24,
+    "question": "Which operator matches values?",
+    "options": [
+      "$eq",
+      "$set",
+      "$find",
+      "$sort"
+    ],
+    "answer": "$eq",
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB"
+  },
+  {
+    "id": 25,
+    "question": "How to sort results?",
+    "options": [
+      "sort()",
+      "find()",
+      "order()",
+      "select()"
+    ],
+    "answer": "sort()",
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB"
+  },
+  {
+    "id": 26,
+    "question": "Default consistency level?",
+    "options": [
+      "ALL",
+      "ONE",
+      "QUORUM",
+      "TWO"
+    ],
+    "answer": "ONE",
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "Cassandra"
+  },
+  {
+    "id": 27,
+    "question": "CQL stands for?",
+    "options": [
+      "Cassandra Query Language",
+      "Cassandra Quick Language",
+      "Cassandra Queue Level",
+      "Cassandra Core Layer"
+    ],
+    "answer": "Cassandra Query Language",
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "Cassandra"
+  },
+  {
+    "id": 28,
+    "question": "Which is a valid data type?",
+    "options": [
+      "text",
+      "varchar",
+      "string",
+      "str"
+    ],
+    "answer": "text",
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "Cassandra"
+  },
+  {
+    "id": 29,
+    "question": "Which command creates table?",
+    "options": [
+      "CREATE TABLE",
+      "NEW TABLE",
+      "MAKE TABLE",
+      "TABLE CREATE"
+    ],
+    "answer": "CREATE TABLE",
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "Cassandra"
+  },
+  {
+    "id": 30,
+    "question": "What stores multiple rows?",
+    "options": [
+      "Table",
+      "Column",
+      "Keyspace",
+      "Index"
+    ],
+    "answer": "Keyspace",
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "Cassandra"
+  },
+  {
+    "id": 31,
+    "question": "What is the default value of a String in Java?",
+    "options": [
+      "null",
+      "\"\"",
+      "0",
+      "undefined"
+    ],
+    "answer": "null",
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 32,
+    "question": "Which method compares string values in Java?",
+    "options": [
+      "==",
+      ".equals()",
+      "compare()",
+      ".match()"
+    ],
+    "answer": ".equals()",
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 33,
+    "question": "What does str.length() return?",
+    "options": [
+      "Length",
+      "Size",
+      "Null",
+      "Index"
+    ],
+    "answer": "Length",
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 34,
+    "question": "What operator concatenates strings in Java?",
+    "options": [
+      "+",
+      "&",
+      ".",
+      "*"
+    ],
+    "answer": "+",
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 35,
+    "question": "Is String mutable in Java?",
+    "options": [
+      "Yes",
+      "No",
+      "Sometimes",
+      "Only in arrays"
+    ],
+    "answer": "No",
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 36,
+    "question": "Which keyword is used to handle exceptions?",
+    "options": [
+      "try",
+      "throw",
+      "catch",
+      "final"
+    ],
+    "answer": "catch",
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 37,
+    "question": "What is the base class of all exceptions?",
+    "options": [
+      "Throwable",
+      "Error",
+      "Exception",
+      "Runtime"
+    ],
+    "answer": "Throwable",
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 38,
+    "question": "Which block is always executed?",
+    "options": [
+      "try",
+      "catch",
+      "throw",
+      "finally"
+    ],
+    "answer": "finally",
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 39,
+    "question": "Which is a checked exception?",
+    "options": [
+      "IOException",
+      "NullPointerException",
+      "ArithmeticException",
+      "ArrayIndexOutOfBounds"
+    ],
+    "answer": "IOException",
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 40,
+    "question": "How to manually throw exception?",
+    "options": [
+      "throw",
+      "throws",
+      "try",
+      "new"
+    ],
+    "answer": "throw",
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 41,
+    "question": "Which operator is used in JOIN?",
+    "options": [
+      "=",
+      "<>",
+      "LIKE",
+      "IN"
+    ],
+    "answer": "=",
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 42,
+    "question": "INNER JOIN returns?",
+    "options": [
+      "All rows",
+      "Matching rows",
+      "NULLs",
+      "Cartesian product"
+    ],
+    "answer": "Matching rows",
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 43,
+    "question": "Which join includes unmatched rows?",
+    "options": [
+      "INNER",
+      "LEFT",
+      "CROSS",
+      "SELF"
+    ],
+    "answer": "LEFT",
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 44,
+    "question": "Which join duplicates rows?",
+    "options": [
+      "CROSS",
+      "LEFT",
+      "INNER",
+      "RIGHT"
+    ],
+    "answer": "CROSS",
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 45,
+    "question": "Which clause groups rows?",
+    "options": [
+      "GROUP BY",
+      "ORDER BY",
+      "JOIN",
+      "WHERE"
+    ],
+    "answer": "GROUP BY",
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 46,
+    "question": "Which clause filters rows in SQL?",
+    "options": [
+      "GROUP BY",
+      "ORDER BY",
+      "WHERE",
+      "HAVING"
+    ],
+    "answer": "WHERE",
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Queries"
+  },
+  {
+    "id": 47,
+    "question": "What does SELECT do?",
+    "options": [
+      "Insert data",
+      "Filter data",
+      "Retrieve data",
+      "Sort data"
+    ],
+    "answer": "Retrieve data",
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Queries"
+  },
+  {
+    "id": 48,
+    "question": "What is used to rename column?",
+    "options": [
+      "AS",
+      "RENAME",
+      "LIKE",
+      "CHANGE"
+    ],
+    "answer": "AS",
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Queries"
+  },
+  {
+    "id": 49,
+    "question": "Which command deletes data?",
+    "options": [
+      "DELETE",
+      "DROP",
+      "REMOVE",
+      "TRUNCATE"
+    ],
+    "answer": "DELETE",
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Queries"
+  },
+  {
+    "id": 50,
+    "question": "Which operator finds pattern?",
+    "options": [
+      "LIKE",
+      "=",
+      "IN",
+      "JOIN"
+    ],
+    "answer": "LIKE",
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Queries"
+  },
+  {
+    "id": 51,
+    "question": "Which format does MongoDB use?",
+    "options": [
+      "JSON",
+      "XML",
+      "CSV",
+      "HTML"
+    ],
+    "answer": "JSON",
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB"
+  },
+  {
+    "id": 52,
+    "question": "Which function fetches docs?",
+    "options": [
+      "find()",
+      "get()",
+      "select()",
+      "show()"
+    ],
+    "answer": "find()",
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB"
+  },
+  {
+    "id": 53,
+    "question": "What is _id?",
+    "options": [
+      "Primary key",
+      "Foreign key",
+      "Index",
+      "Alias"
+    ],
+    "answer": "Primary key",
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB"
+  },
+  {
+    "id": 54,
+    "question": "Which operator matches values?",
+    "options": [
+      "$eq",
+      "$set",
+      "$find",
+      "$sort"
+    ],
+    "answer": "$eq",
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB"
+  },
+  {
+    "id": 55,
+    "question": "How to sort results?",
+    "options": [
+      "sort()",
+      "find()",
+      "order()",
+      "select()"
+    ],
+    "answer": "sort()",
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB"
+  },
+  {
+    "id": 56,
+    "question": "Default consistency level?",
+    "options": [
+      "ALL",
+      "ONE",
+      "QUORUM",
+      "TWO"
+    ],
+    "answer": "ONE",
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "Cassandra"
+  },
+  {
+    "id": 57,
+    "question": "CQL stands for?",
+    "options": [
+      "Cassandra Query Language",
+      "Cassandra Quick Language",
+      "Cassandra Queue Level",
+      "Cassandra Core Layer"
+    ],
+    "answer": "Cassandra Query Language",
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "Cassandra"
+  },
+  {
+    "id": 58,
+    "question": "Which is a valid data type?",
+    "options": [
+      "text",
+      "varchar",
+      "string",
+      "str"
+    ],
+    "answer": "text",
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "Cassandra"
+  },
+  {
+    "id": 59,
+    "question": "Which command creates table?",
+    "options": [
+      "CREATE TABLE",
+      "NEW TABLE",
+      "MAKE TABLE",
+      "TABLE CREATE"
+    ],
+    "answer": "CREATE TABLE",
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "Cassandra"
+  },
+  {
+    "id": 60,
+    "question": "What stores multiple rows?",
+    "options": [
+      "Table",
+      "Column",
+      "Keyspace",
+      "Index"
+    ],
+    "answer": "Keyspace",
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "Cassandra"
+  },
+  {
+    "id": 61,
+    "question": "What is the default value of a String in Java?",
+    "options": [
+      "null",
+      "\"\"",
+      "0",
+      "undefined"
+    ],
+    "answer": "null",
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 62,
+    "question": "Which method compares string values in Java?",
+    "options": [
+      "==",
+      ".equals()",
+      "compare()",
+      ".match()"
+    ],
+    "answer": ".equals()",
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 63,
+    "question": "What does str.length() return?",
+    "options": [
+      "Length",
+      "Size",
+      "Null",
+      "Index"
+    ],
+    "answer": "Length",
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 64,
+    "question": "What operator concatenates strings in Java?",
+    "options": [
+      "+",
+      "&",
+      ".",
+      "*"
+    ],
+    "answer": "+",
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 65,
+    "question": "Is String mutable in Java?",
+    "options": [
+      "Yes",
+      "No",
+      "Sometimes",
+      "Only in arrays"
+    ],
+    "answer": "No",
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java String"
+  },
+  {
+    "id": 66,
+    "question": "Which keyword is used to handle exceptions?",
+    "options": [
+      "try",
+      "throw",
+      "catch",
+      "final"
+    ],
+    "answer": "catch",
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 67,
+    "question": "What is the base class of all exceptions?",
+    "options": [
+      "Throwable",
+      "Error",
+      "Exception",
+      "Runtime"
+    ],
+    "answer": "Throwable",
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 68,
+    "question": "Which block is always executed?",
+    "options": [
+      "try",
+      "catch",
+      "throw",
+      "finally"
+    ],
+    "answer": "finally",
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 69,
+    "question": "Which is a checked exception?",
+    "options": [
+      "IOException",
+      "NullPointerException",
+      "ArithmeticException",
+      "ArrayIndexOutOfBounds"
+    ],
+    "answer": "IOException",
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 70,
+    "question": "How to manually throw exception?",
+    "options": [
+      "throw",
+      "throws",
+      "try",
+      "new"
+    ],
+    "answer": "throw",
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 71,
+    "question": "Which operator is used in JOIN?",
+    "options": [
+      "=",
+      "<>",
+      "LIKE",
+      "IN"
+    ],
+    "answer": "=",
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 72,
+    "question": "INNER JOIN returns?",
+    "options": [
+      "All rows",
+      "Matching rows",
+      "NULLs",
+      "Cartesian product"
+    ],
+    "answer": "Matching rows",
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 73,
+    "question": "Which join includes unmatched rows?",
+    "options": [
+      "INNER",
+      "LEFT",
+      "CROSS",
+      "SELF"
+    ],
+    "answer": "LEFT",
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 74,
+    "question": "Which join duplicates rows?",
+    "options": [
+      "CROSS",
+      "LEFT",
+      "INNER",
+      "RIGHT"
+    ],
+    "answer": "CROSS",
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 75,
+    "question": "Which clause groups rows?",
+    "options": [
+      "GROUP BY",
+      "ORDER BY",
+      "JOIN",
+      "WHERE"
+    ],
+    "answer": "GROUP BY",
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Joins"
+  },
+  {
+    "id": 76,
+    "question": "Which clause filters rows in SQL?",
+    "options": [
+      "GROUP BY",
+      "ORDER BY",
+      "WHERE",
+      "HAVING"
+    ],
+    "answer": "WHERE",
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Queries"
+  },
+  {
+    "id": 77,
+    "question": "What does SELECT do?",
+    "options": [
+      "Insert data",
+      "Filter data",
+      "Retrieve data",
+      "Sort data"
+    ],
+    "answer": "Retrieve data",
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Queries"
+  },
+  {
+    "id": 78,
+    "question": "What is used to rename column?",
+    "options": [
+      "AS",
+      "RENAME",
+      "LIKE",
+      "CHANGE"
+    ],
+    "answer": "AS",
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Queries"
+  },
+  {
+    "id": 79,
+    "question": "Which command deletes data?",
+    "options": [
+      "DELETE",
+      "DROP",
+      "REMOVE",
+      "TRUNCATE"
+    ],
+    "answer": "DELETE",
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Queries"
+  },
+  {
+    "id": 80,
+    "question": "Which operator finds pattern?",
+    "options": [
+      "LIKE",
+      "=",
+      "IN",
+      "JOIN"
+    ],
+    "answer": "LIKE",
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Queries"
+  },
+  {
+    "id": 81,
+    "question": "Which format does MongoDB use?",
+    "options": [
+      "JSON",
+      "XML",
+      "CSV",
+      "HTML"
+    ],
+    "answer": "JSON",
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB"
+  },
+  {
+    "id": 82,
+    "question": "Which function fetches docs?",
+    "options": [
+      "find()",
+      "get()",
+      "select()",
+      "show()"
+    ],
+    "answer": "find()",
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB"
+  },
+  {
+    "id": 83,
+    "question": "What is _id?",
+    "options": [
+      "Primary key",
+      "Foreign key",
+      "Index",
+      "Alias"
+    ],
+    "answer": "Primary key",
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB"
+  },
+  {
+    "id": 84,
+    "question": "Which operator matches values?",
+    "options": [
+      "$eq",
+      "$set",
+      "$find",
+      "$sort"
+    ],
+    "answer": "$eq",
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB"
+  },
+  {
+    "id": 85,
+    "question": "How to sort results?",
+    "options": [
+      "sort()",
+      "find()",
+      "order()",
+      "select()"
+    ],
+    "answer": "sort()",
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB"
+  },
+  {
+    "id": 86,
+    "question": "Default consistency level?",
+    "options": [
+      "ALL",
+      "ONE",
+      "QUORUM",
+      "TWO"
+    ],
+    "answer": "ONE",
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "Cassandra"
+  },
+  {
+    "id": 87,
+    "question": "CQL stands for?",
+    "options": [
+      "Cassandra Query Language",
+      "Cassandra Quick Language",
+      "Cassandra Queue Level",
+      "Cassandra Core Layer"
+    ],
+    "answer": "Cassandra Query Language",
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "Cassandra"
+  },
+  {
+    "id": 88,
+    "question": "Which is a valid data type?",
+    "options": [
+      "text",
+      "varchar",
+      "string",
+      "str"
+    ],
+    "answer": "text",
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "Cassandra"
+  },
+  {
+    "id": 89,
+    "question": "Which command creates table?",
+    "options": [
+      "CREATE TABLE",
+      "NEW TABLE",
+      "MAKE TABLE",
+      "TABLE CREATE"
+    ],
+    "answer": "CREATE TABLE",
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "Cassandra"
+  },
+  {
+    "id": 90,
+    "question": "What stores multiple rows?",
+    "options": [
+      "Table",
+      "Column",
+      "Keyspace",
+      "Index"
+    ],
+    "answer": "Keyspace",
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "Cassandra"
+  }
+]
