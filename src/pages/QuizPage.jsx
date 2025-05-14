@@ -7,13 +7,14 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
   const [questions, setQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState({});
-  const [timer, setTimer] = useState(600);
+  const [timer, setTimer] = useState(600); // 10 minutes
   const navigate = useNavigate();
 
+  // ✅ Load questions from Vercel backend API
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        const res = await axios.get('https://your-vercel-project.vercel.app/api/questions', {
+        const res = await axios.get('https://sphuta-quiz-app-453b.vercel.app/api/questions', {
           params: {
             level: examDetails.level,
             technology: examDetails.technology,
@@ -27,9 +28,11 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
         console.error('Error fetching questions:', err);
       }
     };
+
     fetchQuestions();
   }, [examDetails]);
 
+  // ✅ Global countdown timer
   useEffect(() => {
     const interval = setInterval(() => {
       setTimer((prev) => {
@@ -44,24 +47,42 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
     return () => clearInterval(interval);
   }, [questions]);
 
+  const formatTime = (secs) => {
+    const m = String(Math.floor(secs / 60)).padStart(2, '0');
+    const s = String(secs % 60).padStart(2, '0');
+    return `${m}:${s}`;
+  };
+
   const handleOptionSelect = (option) => {
     setSelected((prev) => ({ ...prev, [current]: option }));
   };
 
+  // ✅ Final score submission to SheetDB + redirect to result
   const handleSubmit = async () => {
     let count = 0;
     questions.forEach((q, i) => {
       if (selected[i] === q.answer) count++;
     });
 
+    try {
+      await axios.post('https://sheetdb.io/api/v1/yivpapugo4glr', {
+        data: {
+          Username: user,
+          Score: count,
+          Total: questions.length,
+          Timestamp: new Date().toISOString(),
+          Level: examDetails.level,
+          Technology: examDetails.technology,
+          Topic: examDetails.topic
+        }
+      });
+      console.log("✅ Result submitted to SheetDB");
+    } catch (err) {
+      console.error("❌ Error submitting to SheetDB:", err);
+    }
+
     setScoreData({ score: count, total: questions.length });
     navigate('/result');
-  };
-
-  const formatTime = (secs) => {
-    const m = String(Math.floor(secs / 60)).padStart(2, '0');
-    const s = String(secs % 60).padStart(2, '0');
-    return `${m}:${s}`;
   };
 
   if (questions.length === 0) {
@@ -100,6 +121,7 @@ export default function QuizPage({ user, setUser, setScoreData, examDetails }) {
         >
           Previous
         </button>
+
         {current === questions.length - 1 ? (
           <button
             onClick={handleSubmit}
