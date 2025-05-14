@@ -1,32 +1,29 @@
 [
   {
     "id": 1,
-    "question": "[Java - Beginner - Java String] Question 1?",
+    "question": "What is the default value of a String in Java?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "null",
+      "\"\"",
+      "0",
+      "undefined"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "null",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 2,
-    "question": "[Java - Beginner - Java String] Question 2?",
+    "question": "Which method compares two strings in Java?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "==",
+      "equals()",
+      "compare()",
+      "match()"
     ],
-    "answer": "Option A",
+    "answer": "equals()",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
@@ -34,14 +31,14 @@
   },
   {
     "id": 3,
-    "question": "[Java - Beginner - Java String] Question 3?",
+    "question": "Which method returns the length of a string?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "size()",
+      "length()",
+      "count()",
+      "getLength()"
     ],
-    "answer": "Option A",
+    "answer": "length()",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
@@ -49,32 +46,29 @@
   },
   {
     "id": 4,
-    "question": "[Java - Beginner - Java String] Question 4?",
+    "question": "Which symbol is used for string concatenation?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "+",
+      "&",
+      "*",
+      "$"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "+",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 5,
-    "question": "[Java - Beginner - Java String] Question 5?",
+    "question": "Which method converts a string to lowercase?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "toLower()",
+      "lower()",
+      "toLowerCase()",
+      "convertLower()"
     ],
-    "answer": "Option A",
+    "answer": "toLowerCase()",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
@@ -82,14 +76,14 @@
   },
   {
     "id": 6,
-    "question": "[Java - Beginner - Java String] Question 6?",
+    "question": "What is the default value of a String in Java?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "null",
+      "\"\"",
+      "0",
+      "undefined"
     ],
-    "answer": "Option A",
+    "answer": "null",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
@@ -97,32 +91,29 @@
   },
   {
     "id": 7,
-    "question": "[Java - Beginner - Java String] Question 7?",
+    "question": "Which method compares two strings in Java?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "==",
+      "equals()",
+      "compare()",
+      "match()"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "equals()",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 8,
-    "question": "[Java - Beginner - Java String] Question 8?",
+    "question": "Which method returns the length of a string?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "size()",
+      "length()",
+      "count()",
+      "getLength()"
     ],
-    "answer": "Option A",
+    "answer": "length()",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
@@ -130,14 +121,14 @@
   },
   {
     "id": 9,
-    "question": "[Java - Beginner - Java String] Question 9?",
+    "question": "Which symbol is used for string concatenation?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "+",
+      "&",
+      "*",
+      "$"
     ],
-    "answer": "Option A",
+    "answer": "+",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
@@ -145,34 +136,32 @@
   },
   {
     "id": 10,
-    "question": "[Java - Beginner - Java String] Question 10?",
+    "question": "Which method converts a string to lowercase?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "toLower()",
+      "lower()",
+      "toLowerCase()",
+      "convertLower()"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "toLowerCase()",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 11,
-    "question": "[Java - Beginner - Java Basics] Question 1?",
+    "question": "Which are valid Java access modifiers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "public",
+      "private",
+      "protected",
+      "final"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "public",
+      "private",
+      "protected"
     ],
     "multiSelect": true,
     "level": "Beginner",
@@ -181,14 +170,14 @@
   },
   {
     "id": 12,
-    "question": "[Java - Beginner - Java Basics] Question 2?",
+    "question": "Which keyword is used to create a subclass?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "extends",
+      "implements",
+      "inherits",
+      "super"
     ],
-    "answer": "Option A",
+    "answer": "extends",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
@@ -196,14 +185,14 @@
   },
   {
     "id": 13,
-    "question": "[Java - Beginner - Java Basics] Question 3?",
+    "question": "What is the default value of an int in Java?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "null",
+      "undefined",
+      "NaN"
     ],
-    "answer": "Option A",
+    "answer": "0",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
@@ -211,32 +200,29 @@
   },
   {
     "id": 14,
-    "question": "[Java - Beginner - Java Basics] Question 4?",
+    "question": "Which keyword is used to define a constant?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "final",
+      "static",
+      "const",
+      "fixed"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "final",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
     "topic": "Java Basics"
   },
   {
     "id": 15,
-    "question": "[Java - Beginner - Java Basics] Question 5?",
+    "question": "Which method is the entry point for a Java program?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "main()",
+      "start()",
+      "init()",
+      "run()"
     ],
-    "answer": "Option A",
+    "answer": "main()",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
@@ -244,31 +230,17 @@
   },
   {
     "id": 16,
-    "question": "[Java - Beginner - Java Basics] Question 6?",
+    "question": "Which are valid Java access modifiers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Beginner",
-    "technology": "Java",
-    "topic": "Java Basics"
-  },
-  {
-    "id": 17,
-    "question": "[Java - Beginner - Java Basics] Question 7?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "public",
+      "private",
+      "protected",
+      "final"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "public",
+      "private",
+      "protected"
     ],
     "multiSelect": true,
     "level": "Beginner",
@@ -276,15 +248,30 @@
     "topic": "Java Basics"
   },
   {
-    "id": 18,
-    "question": "[Java - Beginner - Java Basics] Question 8?",
+    "id": 17,
+    "question": "Which keyword is used to create a subclass?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "extends",
+      "implements",
+      "inherits",
+      "super"
     ],
-    "answer": "Option A",
+    "answer": "extends",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 18,
+    "question": "What is the default value of an int in Java?",
+    "options": [
+      "0",
+      "null",
+      "undefined",
+      "NaN"
+    ],
+    "answer": "0",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
@@ -292,14 +279,14 @@
   },
   {
     "id": 19,
-    "question": "[Java - Beginner - Java Basics] Question 9?",
+    "question": "Which keyword is used to define a constant?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "final",
+      "static",
+      "const",
+      "fixed"
     ],
-    "answer": "Option A",
+    "answer": "final",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
@@ -307,50 +294,44 @@
   },
   {
     "id": 20,
-    "question": "[Java - Beginner - Java Basics] Question 10?",
+    "question": "Which method is the entry point for a Java program?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "main()",
+      "start()",
+      "init()",
+      "run()"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "main()",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
     "topic": "Java Basics"
   },
   {
     "id": 21,
-    "question": "[Java - Beginner - Java Exception] Question 1?",
+    "question": "Which exception is a checked exception?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "IOException",
+      "NullPointerException",
+      "ArithmeticException",
+      "ArrayIndexOutOfBoundsException"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "IOException",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
     "topic": "Java Exception"
   },
   {
     "id": 22,
-    "question": "[Java - Beginner - Java Exception] Question 2?",
+    "question": "Which keyword is used to handle exceptions?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "catch",
+      "handle",
+      "try",
+      "recover"
     ],
-    "answer": "Option A",
+    "answer": "catch",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
@@ -358,14 +339,14 @@
   },
   {
     "id": 23,
-    "question": "[Java - Beginner - Java Exception] Question 3?",
+    "question": "Which block must follow a try block?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "catch",
+      "throw",
+      "finally",
+      "throws"
     ],
-    "answer": "Option A",
+    "answer": "catch",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
@@ -373,16 +354,32 @@
   },
   {
     "id": 24,
-    "question": "[Java - Beginner - Java Exception] Question 4?",
+    "question": "Which class is the parent of all exceptions?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Throwable",
+      "Exception",
+      "Error",
+      "RuntimeException"
+    ],
+    "answer": "Throwable",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 25,
+    "question": "Which exceptions occur at runtime?",
+    "options": [
+      "ArithmeticException",
+      "NullPointerException",
+      "IOException",
+      "ClassCastException"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "ArithmeticException",
+      "NullPointerException",
+      "ClassCastException"
     ],
     "multiSelect": true,
     "level": "Beginner",
@@ -390,30 +387,15 @@
     "topic": "Java Exception"
   },
   {
-    "id": 25,
-    "question": "[Java - Beginner - Java Exception] Question 5?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Beginner",
-    "technology": "Java",
-    "topic": "Java Exception"
-  },
-  {
     "id": 26,
-    "question": "[Java - Beginner - Java Exception] Question 6?",
+    "question": "Which exception is a checked exception?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "IOException",
+      "NullPointerException",
+      "ArithmeticException",
+      "ArrayIndexOutOfBoundsException"
     ],
-    "answer": "Option A",
+    "answer": "IOException",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
@@ -421,32 +403,29 @@
   },
   {
     "id": 27,
-    "question": "[Java - Beginner - Java Exception] Question 7?",
+    "question": "Which keyword is used to handle exceptions?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "catch",
+      "handle",
+      "try",
+      "recover"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "catch",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
     "topic": "Java Exception"
   },
   {
     "id": 28,
-    "question": "[Java - Beginner - Java Exception] Question 8?",
+    "question": "Which block must follow a try block?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "catch",
+      "throw",
+      "finally",
+      "throws"
     ],
-    "answer": "Option A",
+    "answer": "catch",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
@@ -454,14 +433,14 @@
   },
   {
     "id": 29,
-    "question": "[Java - Beginner - Java Exception] Question 9?",
+    "question": "Which class is the parent of all exceptions?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Throwable",
+      "Exception",
+      "Error",
+      "RuntimeException"
     ],
-    "answer": "Option A",
+    "answer": "Throwable",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "Java",
@@ -469,16 +448,17 @@
   },
   {
     "id": 30,
-    "question": "[Java - Beginner - Java Exception] Question 10?",
+    "question": "Which exceptions occur at runtime?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "ArithmeticException",
+      "NullPointerException",
+      "IOException",
+      "ClassCastException"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "ArithmeticException",
+      "NullPointerException",
+      "ClassCastException"
     ],
     "multiSelect": true,
     "level": "Beginner",
@@ -487,32 +467,29 @@
   },
   {
     "id": 31,
-    "question": "[Java - Intermediate - Java String] Question 1?",
+    "question": "What is the default value of a String in Java?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "null",
+      "\"\"",
+      "0",
+      "undefined"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "null",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 32,
-    "question": "[Java - Intermediate - Java String] Question 2?",
+    "question": "Which method compares two strings in Java?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "==",
+      "equals()",
+      "compare()",
+      "match()"
     ],
-    "answer": "Option A",
+    "answer": "equals()",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
@@ -520,14 +497,14 @@
   },
   {
     "id": 33,
-    "question": "[Java - Intermediate - Java String] Question 3?",
+    "question": "Which method returns the length of a string?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "size()",
+      "length()",
+      "count()",
+      "getLength()"
     ],
-    "answer": "Option A",
+    "answer": "length()",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
@@ -535,32 +512,29 @@
   },
   {
     "id": 34,
-    "question": "[Java - Intermediate - Java String] Question 4?",
+    "question": "Which symbol is used for string concatenation?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "+",
+      "&",
+      "*",
+      "$"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "+",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 35,
-    "question": "[Java - Intermediate - Java String] Question 5?",
+    "question": "Which method converts a string to lowercase?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "toLower()",
+      "lower()",
+      "toLowerCase()",
+      "convertLower()"
     ],
-    "answer": "Option A",
+    "answer": "toLowerCase()",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
@@ -568,14 +542,14 @@
   },
   {
     "id": 36,
-    "question": "[Java - Intermediate - Java String] Question 6?",
+    "question": "What is the default value of a String in Java?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "null",
+      "\"\"",
+      "0",
+      "undefined"
     ],
-    "answer": "Option A",
+    "answer": "null",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
@@ -583,32 +557,29 @@
   },
   {
     "id": 37,
-    "question": "[Java - Intermediate - Java String] Question 7?",
+    "question": "Which method compares two strings in Java?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "==",
+      "equals()",
+      "compare()",
+      "match()"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "equals()",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 38,
-    "question": "[Java - Intermediate - Java String] Question 8?",
+    "question": "Which method returns the length of a string?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "size()",
+      "length()",
+      "count()",
+      "getLength()"
     ],
-    "answer": "Option A",
+    "answer": "length()",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
@@ -616,14 +587,14 @@
   },
   {
     "id": 39,
-    "question": "[Java - Intermediate - Java String] Question 9?",
+    "question": "Which symbol is used for string concatenation?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "+",
+      "&",
+      "*",
+      "$"
     ],
-    "answer": "Option A",
+    "answer": "+",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
@@ -631,34 +602,32 @@
   },
   {
     "id": 40,
-    "question": "[Java - Intermediate - Java String] Question 10?",
+    "question": "Which method converts a string to lowercase?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "toLower()",
+      "lower()",
+      "toLowerCase()",
+      "convertLower()"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "toLowerCase()",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 41,
-    "question": "[Java - Intermediate - Java Basics] Question 1?",
+    "question": "Which are valid Java access modifiers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "public",
+      "private",
+      "protected",
+      "final"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "public",
+      "private",
+      "protected"
     ],
     "multiSelect": true,
     "level": "Intermediate",
@@ -667,14 +636,14 @@
   },
   {
     "id": 42,
-    "question": "[Java - Intermediate - Java Basics] Question 2?",
+    "question": "Which keyword is used to create a subclass?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "extends",
+      "implements",
+      "inherits",
+      "super"
     ],
-    "answer": "Option A",
+    "answer": "extends",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
@@ -682,14 +651,14 @@
   },
   {
     "id": 43,
-    "question": "[Java - Intermediate - Java Basics] Question 3?",
+    "question": "What is the default value of an int in Java?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "null",
+      "undefined",
+      "NaN"
     ],
-    "answer": "Option A",
+    "answer": "0",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
@@ -697,32 +666,29 @@
   },
   {
     "id": 44,
-    "question": "[Java - Intermediate - Java Basics] Question 4?",
+    "question": "Which keyword is used to define a constant?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "final",
+      "static",
+      "const",
+      "fixed"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "final",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
     "topic": "Java Basics"
   },
   {
     "id": 45,
-    "question": "[Java - Intermediate - Java Basics] Question 5?",
+    "question": "Which method is the entry point for a Java program?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "main()",
+      "start()",
+      "init()",
+      "run()"
     ],
-    "answer": "Option A",
+    "answer": "main()",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
@@ -730,31 +696,17 @@
   },
   {
     "id": 46,
-    "question": "[Java - Intermediate - Java Basics] Question 6?",
+    "question": "Which are valid Java access modifiers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Intermediate",
-    "technology": "Java",
-    "topic": "Java Basics"
-  },
-  {
-    "id": 47,
-    "question": "[Java - Intermediate - Java Basics] Question 7?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "public",
+      "private",
+      "protected",
+      "final"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "public",
+      "private",
+      "protected"
     ],
     "multiSelect": true,
     "level": "Intermediate",
@@ -762,15 +714,30 @@
     "topic": "Java Basics"
   },
   {
-    "id": 48,
-    "question": "[Java - Intermediate - Java Basics] Question 8?",
+    "id": 47,
+    "question": "Which keyword is used to create a subclass?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "extends",
+      "implements",
+      "inherits",
+      "super"
     ],
-    "answer": "Option A",
+    "answer": "extends",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 48,
+    "question": "What is the default value of an int in Java?",
+    "options": [
+      "0",
+      "null",
+      "undefined",
+      "NaN"
+    ],
+    "answer": "0",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
@@ -778,14 +745,14 @@
   },
   {
     "id": 49,
-    "question": "[Java - Intermediate - Java Basics] Question 9?",
+    "question": "Which keyword is used to define a constant?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "final",
+      "static",
+      "const",
+      "fixed"
     ],
-    "answer": "Option A",
+    "answer": "final",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
@@ -793,50 +760,44 @@
   },
   {
     "id": 50,
-    "question": "[Java - Intermediate - Java Basics] Question 10?",
+    "question": "Which method is the entry point for a Java program?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "main()",
+      "start()",
+      "init()",
+      "run()"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "main()",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
     "topic": "Java Basics"
   },
   {
     "id": 51,
-    "question": "[Java - Intermediate - Java Exception] Question 1?",
+    "question": "Which exception is a checked exception?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "IOException",
+      "NullPointerException",
+      "ArithmeticException",
+      "ArrayIndexOutOfBoundsException"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "IOException",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
     "topic": "Java Exception"
   },
   {
     "id": 52,
-    "question": "[Java - Intermediate - Java Exception] Question 2?",
+    "question": "Which keyword is used to handle exceptions?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "catch",
+      "handle",
+      "try",
+      "recover"
     ],
-    "answer": "Option A",
+    "answer": "catch",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
@@ -844,14 +805,14 @@
   },
   {
     "id": 53,
-    "question": "[Java - Intermediate - Java Exception] Question 3?",
+    "question": "Which block must follow a try block?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "catch",
+      "throw",
+      "finally",
+      "throws"
     ],
-    "answer": "Option A",
+    "answer": "catch",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
@@ -859,16 +820,32 @@
   },
   {
     "id": 54,
-    "question": "[Java - Intermediate - Java Exception] Question 4?",
+    "question": "Which class is the parent of all exceptions?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Throwable",
+      "Exception",
+      "Error",
+      "RuntimeException"
+    ],
+    "answer": "Throwable",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 55,
+    "question": "Which exceptions occur at runtime?",
+    "options": [
+      "ArithmeticException",
+      "NullPointerException",
+      "IOException",
+      "ClassCastException"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "ArithmeticException",
+      "NullPointerException",
+      "ClassCastException"
     ],
     "multiSelect": true,
     "level": "Intermediate",
@@ -876,30 +853,15 @@
     "topic": "Java Exception"
   },
   {
-    "id": 55,
-    "question": "[Java - Intermediate - Java Exception] Question 5?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Intermediate",
-    "technology": "Java",
-    "topic": "Java Exception"
-  },
-  {
     "id": 56,
-    "question": "[Java - Intermediate - Java Exception] Question 6?",
+    "question": "Which exception is a checked exception?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "IOException",
+      "NullPointerException",
+      "ArithmeticException",
+      "ArrayIndexOutOfBoundsException"
     ],
-    "answer": "Option A",
+    "answer": "IOException",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
@@ -907,32 +869,29 @@
   },
   {
     "id": 57,
-    "question": "[Java - Intermediate - Java Exception] Question 7?",
+    "question": "Which keyword is used to handle exceptions?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "catch",
+      "handle",
+      "try",
+      "recover"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "catch",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
     "topic": "Java Exception"
   },
   {
     "id": 58,
-    "question": "[Java - Intermediate - Java Exception] Question 8?",
+    "question": "Which block must follow a try block?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "catch",
+      "throw",
+      "finally",
+      "throws"
     ],
-    "answer": "Option A",
+    "answer": "catch",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
@@ -940,14 +899,14 @@
   },
   {
     "id": 59,
-    "question": "[Java - Intermediate - Java Exception] Question 9?",
+    "question": "Which class is the parent of all exceptions?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Throwable",
+      "Exception",
+      "Error",
+      "RuntimeException"
     ],
-    "answer": "Option A",
+    "answer": "Throwable",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "Java",
@@ -955,16 +914,17 @@
   },
   {
     "id": 60,
-    "question": "[Java - Intermediate - Java Exception] Question 10?",
+    "question": "Which exceptions occur at runtime?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "ArithmeticException",
+      "NullPointerException",
+      "IOException",
+      "ClassCastException"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "ArithmeticException",
+      "NullPointerException",
+      "ClassCastException"
     ],
     "multiSelect": true,
     "level": "Intermediate",
@@ -973,32 +933,29 @@
   },
   {
     "id": 61,
-    "question": "[Java - Expert - Java String] Question 1?",
+    "question": "What is the default value of a String in Java?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "null",
+      "\"\"",
+      "0",
+      "undefined"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "null",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 62,
-    "question": "[Java - Expert - Java String] Question 2?",
+    "question": "Which method compares two strings in Java?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "==",
+      "equals()",
+      "compare()",
+      "match()"
     ],
-    "answer": "Option A",
+    "answer": "equals()",
     "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
@@ -1006,14 +963,14 @@
   },
   {
     "id": 63,
-    "question": "[Java - Expert - Java String] Question 3?",
+    "question": "Which method returns the length of a string?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "size()",
+      "length()",
+      "count()",
+      "getLength()"
     ],
-    "answer": "Option A",
+    "answer": "length()",
     "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
@@ -1021,32 +978,29 @@
   },
   {
     "id": 64,
-    "question": "[Java - Expert - Java String] Question 4?",
+    "question": "Which symbol is used for string concatenation?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "+",
+      "&",
+      "*",
+      "$"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "+",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 65,
-    "question": "[Java - Expert - Java String] Question 5?",
+    "question": "Which method converts a string to lowercase?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "toLower()",
+      "lower()",
+      "toLowerCase()",
+      "convertLower()"
     ],
-    "answer": "Option A",
+    "answer": "toLowerCase()",
     "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
@@ -1054,14 +1008,14 @@
   },
   {
     "id": 66,
-    "question": "[Java - Expert - Java String] Question 6?",
+    "question": "What is the default value of a String in Java?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "null",
+      "\"\"",
+      "0",
+      "undefined"
     ],
-    "answer": "Option A",
+    "answer": "null",
     "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
@@ -1069,32 +1023,29 @@
   },
   {
     "id": 67,
-    "question": "[Java - Expert - Java String] Question 7?",
+    "question": "Which method compares two strings in Java?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "==",
+      "equals()",
+      "compare()",
+      "match()"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "equals()",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 68,
-    "question": "[Java - Expert - Java String] Question 8?",
+    "question": "Which method returns the length of a string?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "size()",
+      "length()",
+      "count()",
+      "getLength()"
     ],
-    "answer": "Option A",
+    "answer": "length()",
     "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
@@ -1102,14 +1053,14 @@
   },
   {
     "id": 69,
-    "question": "[Java - Expert - Java String] Question 9?",
+    "question": "Which symbol is used for string concatenation?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "+",
+      "&",
+      "*",
+      "$"
     ],
-    "answer": "Option A",
+    "answer": "+",
     "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
@@ -1117,34 +1068,32 @@
   },
   {
     "id": 70,
-    "question": "[Java - Expert - Java String] Question 10?",
+    "question": "Which method converts a string to lowercase?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "toLower()",
+      "lower()",
+      "toLowerCase()",
+      "convertLower()"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "toLowerCase()",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
     "topic": "Java String"
   },
   {
     "id": 71,
-    "question": "[Java - Expert - Java Basics] Question 1?",
+    "question": "Which are valid Java access modifiers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "public",
+      "private",
+      "protected",
+      "final"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "public",
+      "private",
+      "protected"
     ],
     "multiSelect": true,
     "level": "Expert",
@@ -1153,14 +1102,14 @@
   },
   {
     "id": 72,
-    "question": "[Java - Expert - Java Basics] Question 2?",
+    "question": "Which keyword is used to create a subclass?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "extends",
+      "implements",
+      "inherits",
+      "super"
     ],
-    "answer": "Option A",
+    "answer": "extends",
     "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
@@ -1168,14 +1117,14 @@
   },
   {
     "id": 73,
-    "question": "[Java - Expert - Java Basics] Question 3?",
+    "question": "What is the default value of an int in Java?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "null",
+      "undefined",
+      "NaN"
     ],
-    "answer": "Option A",
+    "answer": "0",
     "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
@@ -1183,32 +1132,29 @@
   },
   {
     "id": 74,
-    "question": "[Java - Expert - Java Basics] Question 4?",
+    "question": "Which keyword is used to define a constant?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "final",
+      "static",
+      "const",
+      "fixed"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "final",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
     "topic": "Java Basics"
   },
   {
     "id": 75,
-    "question": "[Java - Expert - Java Basics] Question 5?",
+    "question": "Which method is the entry point for a Java program?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "main()",
+      "start()",
+      "init()",
+      "run()"
     ],
-    "answer": "Option A",
+    "answer": "main()",
     "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
@@ -1216,31 +1162,17 @@
   },
   {
     "id": 76,
-    "question": "[Java - Expert - Java Basics] Question 6?",
+    "question": "Which are valid Java access modifiers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Expert",
-    "technology": "Java",
-    "topic": "Java Basics"
-  },
-  {
-    "id": 77,
-    "question": "[Java - Expert - Java Basics] Question 7?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "public",
+      "private",
+      "protected",
+      "final"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "public",
+      "private",
+      "protected"
     ],
     "multiSelect": true,
     "level": "Expert",
@@ -1248,15 +1180,30 @@
     "topic": "Java Basics"
   },
   {
-    "id": 78,
-    "question": "[Java - Expert - Java Basics] Question 8?",
+    "id": 77,
+    "question": "Which keyword is used to create a subclass?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "extends",
+      "implements",
+      "inherits",
+      "super"
     ],
-    "answer": "Option A",
+    "answer": "extends",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Basics"
+  },
+  {
+    "id": 78,
+    "question": "What is the default value of an int in Java?",
+    "options": [
+      "0",
+      "null",
+      "undefined",
+      "NaN"
+    ],
+    "answer": "0",
     "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
@@ -1264,14 +1211,14 @@
   },
   {
     "id": 79,
-    "question": "[Java - Expert - Java Basics] Question 9?",
+    "question": "Which keyword is used to define a constant?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "final",
+      "static",
+      "const",
+      "fixed"
     ],
-    "answer": "Option A",
+    "answer": "final",
     "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
@@ -1279,50 +1226,44 @@
   },
   {
     "id": 80,
-    "question": "[Java - Expert - Java Basics] Question 10?",
+    "question": "Which method is the entry point for a Java program?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "main()",
+      "start()",
+      "init()",
+      "run()"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "main()",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
     "topic": "Java Basics"
   },
   {
     "id": 81,
-    "question": "[Java - Expert - Java Exception] Question 1?",
+    "question": "Which exception is a checked exception?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "IOException",
+      "NullPointerException",
+      "ArithmeticException",
+      "ArrayIndexOutOfBoundsException"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "IOException",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
     "topic": "Java Exception"
   },
   {
     "id": 82,
-    "question": "[Java - Expert - Java Exception] Question 2?",
+    "question": "Which keyword is used to handle exceptions?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "catch",
+      "handle",
+      "try",
+      "recover"
     ],
-    "answer": "Option A",
+    "answer": "catch",
     "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
@@ -1330,14 +1271,14 @@
   },
   {
     "id": 83,
-    "question": "[Java - Expert - Java Exception] Question 3?",
+    "question": "Which block must follow a try block?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "catch",
+      "throw",
+      "finally",
+      "throws"
     ],
-    "answer": "Option A",
+    "answer": "catch",
     "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
@@ -1345,16 +1286,32 @@
   },
   {
     "id": 84,
-    "question": "[Java - Expert - Java Exception] Question 4?",
+    "question": "Which class is the parent of all exceptions?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Throwable",
+      "Exception",
+      "Error",
+      "RuntimeException"
+    ],
+    "answer": "Throwable",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "Java",
+    "topic": "Java Exception"
+  },
+  {
+    "id": 85,
+    "question": "Which exceptions occur at runtime?",
+    "options": [
+      "ArithmeticException",
+      "NullPointerException",
+      "IOException",
+      "ClassCastException"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "ArithmeticException",
+      "NullPointerException",
+      "ClassCastException"
     ],
     "multiSelect": true,
     "level": "Expert",
@@ -1362,30 +1319,15 @@
     "topic": "Java Exception"
   },
   {
-    "id": 85,
-    "question": "[Java - Expert - Java Exception] Question 5?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Expert",
-    "technology": "Java",
-    "topic": "Java Exception"
-  },
-  {
     "id": 86,
-    "question": "[Java - Expert - Java Exception] Question 6?",
+    "question": "Which exception is a checked exception?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "IOException",
+      "NullPointerException",
+      "ArithmeticException",
+      "ArrayIndexOutOfBoundsException"
     ],
-    "answer": "Option A",
+    "answer": "IOException",
     "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
@@ -1393,32 +1335,29 @@
   },
   {
     "id": 87,
-    "question": "[Java - Expert - Java Exception] Question 7?",
+    "question": "Which keyword is used to handle exceptions?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "catch",
+      "handle",
+      "try",
+      "recover"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "catch",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
     "topic": "Java Exception"
   },
   {
     "id": 88,
-    "question": "[Java - Expert - Java Exception] Question 8?",
+    "question": "Which block must follow a try block?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "catch",
+      "throw",
+      "finally",
+      "throws"
     ],
-    "answer": "Option A",
+    "answer": "catch",
     "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
@@ -1426,14 +1365,14 @@
   },
   {
     "id": 89,
-    "question": "[Java - Expert - Java Exception] Question 9?",
+    "question": "Which class is the parent of all exceptions?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Throwable",
+      "Exception",
+      "Error",
+      "RuntimeException"
     ],
-    "answer": "Option A",
+    "answer": "Throwable",
     "multiSelect": false,
     "level": "Expert",
     "technology": "Java",
@@ -1441,16 +1380,17 @@
   },
   {
     "id": 90,
-    "question": "[Java - Expert - Java Exception] Question 10?",
+    "question": "Which exceptions occur at runtime?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "ArithmeticException",
+      "NullPointerException",
+      "IOException",
+      "ClassCastException"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "ArithmeticException",
+      "NullPointerException",
+      "ClassCastException"
     ],
     "multiSelect": true,
     "level": "Expert",
@@ -1459,32 +1399,29 @@
   },
   {
     "id": 91,
-    "question": "[SQL - Beginner - SQL Basics] Question 1?",
+    "question": "Which SQL command is used to fetch data?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "FETCH",
+      "GET",
+      "SHOW"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "SELECT",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
     "topic": "SQL Basics"
   },
   {
     "id": 92,
-    "question": "[SQL - Beginner - SQL Basics] Question 2?",
+    "question": "Which clause filters records in SQL?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "WHERE",
+      "HAVING",
+      "GROUP BY",
+      "LIMIT"
     ],
-    "answer": "Option A",
+    "answer": "WHERE",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
@@ -1492,14 +1429,14 @@
   },
   {
     "id": 93,
-    "question": "[SQL - Beginner - SQL Basics] Question 3?",
+    "question": "Which keyword is used to sort results?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "ORDER BY",
+      "GROUP BY",
+      "SORT",
+      "ARRANGE"
     ],
-    "answer": "Option A",
+    "answer": "ORDER BY",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
@@ -1507,32 +1444,29 @@
   },
   {
     "id": 94,
-    "question": "[SQL - Beginner - SQL Basics] Question 4?",
+    "question": "Which clause is used for aggregation?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "GROUP BY",
+      "SUM",
+      "SELECT",
+      "COLLECT"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "GROUP BY",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
     "topic": "SQL Basics"
   },
   {
     "id": 95,
-    "question": "[SQL - Beginner - SQL Basics] Question 5?",
+    "question": "Which command removes all records from a table?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "DELETE",
+      "REMOVE",
+      "TRUNCATE",
+      "DROP"
     ],
-    "answer": "Option A",
+    "answer": "TRUNCATE",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
@@ -1540,14 +1474,14 @@
   },
   {
     "id": 96,
-    "question": "[SQL - Beginner - SQL Basics] Question 6?",
+    "question": "Which SQL command is used to fetch data?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "FETCH",
+      "GET",
+      "SHOW"
     ],
-    "answer": "Option A",
+    "answer": "SELECT",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
@@ -1555,32 +1489,29 @@
   },
   {
     "id": 97,
-    "question": "[SQL - Beginner - SQL Basics] Question 7?",
+    "question": "Which clause filters records in SQL?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "WHERE",
+      "HAVING",
+      "GROUP BY",
+      "LIMIT"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "WHERE",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
     "topic": "SQL Basics"
   },
   {
     "id": 98,
-    "question": "[SQL - Beginner - SQL Basics] Question 8?",
+    "question": "Which keyword is used to sort results?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "ORDER BY",
+      "GROUP BY",
+      "SORT",
+      "ARRANGE"
     ],
-    "answer": "Option A",
+    "answer": "ORDER BY",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
@@ -1588,14 +1519,14 @@
   },
   {
     "id": 99,
-    "question": "[SQL - Beginner - SQL Basics] Question 9?",
+    "question": "Which clause is used for aggregation?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "GROUP BY",
+      "SUM",
+      "SELECT",
+      "COLLECT"
     ],
-    "answer": "Option A",
+    "answer": "GROUP BY",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
@@ -1603,50 +1534,44 @@
   },
   {
     "id": 100,
-    "question": "[SQL - Beginner - SQL Basics] Question 10?",
+    "question": "Which command removes all records from a table?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "DELETE",
+      "REMOVE",
+      "TRUNCATE",
+      "DROP"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "TRUNCATE",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
     "topic": "SQL Basics"
   },
   {
     "id": 101,
-    "question": "[SQL - Beginner - SQL Joins] Question 1?",
+    "question": "Which join returns only matching rows?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "INNER JOIN",
+      "LEFT JOIN",
+      "FULL JOIN",
+      "RIGHT JOIN"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "INNER JOIN",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
     "topic": "SQL Joins"
   },
   {
     "id": 102,
-    "question": "[SQL - Beginner - SQL Joins] Question 2?",
+    "question": "Which join returns all rows from the left table?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "LEFT JOIN",
+      "INNER JOIN",
+      "FULL JOIN",
+      "CROSS JOIN"
     ],
-    "answer": "Option A",
+    "answer": "LEFT JOIN",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
@@ -1654,14 +1579,14 @@
   },
   {
     "id": 103,
-    "question": "[SQL - Beginner - SQL Joins] Question 3?",
+    "question": "Which keyword is used to join tables?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "JOIN",
+      "MERGE",
+      "LINK",
+      "COMBINE"
     ],
-    "answer": "Option A",
+    "answer": "JOIN",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
@@ -1669,32 +1594,29 @@
   },
   {
     "id": 104,
-    "question": "[SQL - Beginner - SQL Joins] Question 4?",
+    "question": "Which join gives Cartesian product?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "CROSS JOIN",
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "CROSS JOIN",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
     "topic": "SQL Joins"
   },
   {
     "id": 105,
-    "question": "[SQL - Beginner - SQL Joins] Question 5?",
+    "question": "Which SQL clause specifies join condition?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "ON",
+      "WHERE",
+      "HAVING",
+      "JOIN BY"
     ],
-    "answer": "Option A",
+    "answer": "ON",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
@@ -1702,14 +1624,14 @@
   },
   {
     "id": 106,
-    "question": "[SQL - Beginner - SQL Joins] Question 6?",
+    "question": "Which join returns only matching rows?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "INNER JOIN",
+      "LEFT JOIN",
+      "FULL JOIN",
+      "RIGHT JOIN"
     ],
-    "answer": "Option A",
+    "answer": "INNER JOIN",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
@@ -1717,32 +1639,29 @@
   },
   {
     "id": 107,
-    "question": "[SQL - Beginner - SQL Joins] Question 7?",
+    "question": "Which join returns all rows from the left table?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "LEFT JOIN",
+      "INNER JOIN",
+      "FULL JOIN",
+      "CROSS JOIN"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "LEFT JOIN",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
     "topic": "SQL Joins"
   },
   {
     "id": 108,
-    "question": "[SQL - Beginner - SQL Joins] Question 8?",
+    "question": "Which keyword is used to join tables?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "JOIN",
+      "MERGE",
+      "LINK",
+      "COMBINE"
     ],
-    "answer": "Option A",
+    "answer": "JOIN",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
@@ -1750,14 +1669,14 @@
   },
   {
     "id": 109,
-    "question": "[SQL - Beginner - SQL Joins] Question 9?",
+    "question": "Which join gives Cartesian product?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "CROSS JOIN",
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN"
     ],
-    "answer": "Option A",
+    "answer": "CROSS JOIN",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
@@ -1765,82 +1684,47 @@
   },
   {
     "id": 110,
-    "question": "[SQL - Beginner - SQL Joins] Question 10?",
+    "question": "Which SQL clause specifies join condition?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "ON",
+      "WHERE",
+      "HAVING",
+      "JOIN BY"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "ON",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
     "topic": "SQL Joins"
   },
   {
     "id": 111,
-    "question": "[SQL - Beginner - SQL Subqueries] Question 1?",
+    "question": "What is a scalar subquery?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Returns one value",
+      "Returns multiple rows",
+      "Updates data",
+      "Deletes data"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "Returns one value",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
     "topic": "SQL Subqueries"
   },
   {
     "id": 112,
-    "question": "[SQL - Beginner - SQL Subqueries] Question 2?",
+    "question": "Which are valid subquery types?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Beginner",
-    "technology": "SQL",
-    "topic": "SQL Subqueries"
-  },
-  {
-    "id": 113,
-    "question": "[SQL - Beginner - SQL Subqueries] Question 3?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Beginner",
-    "technology": "SQL",
-    "topic": "SQL Subqueries"
-  },
-  {
-    "id": 114,
-    "question": "[SQL - Beginner - SQL Subqueries] Question 4?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Scalar",
+      "Correlated",
+      "Nested",
+      "Outer"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "Scalar",
+      "Correlated",
+      "Nested"
     ],
     "multiSelect": true,
     "level": "Beginner",
@@ -1848,30 +1732,69 @@
     "topic": "SQL Subqueries"
   },
   {
-    "id": 115,
-    "question": "[SQL - Beginner - SQL Subqueries] Question 5?",
+    "id": 113,
+    "question": "Where can subqueries appear?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "FROM",
+      "WHERE",
+      "ALL OF THESE"
     ],
-    "answer": "Option A",
+    "answer": [
+      "SELECT",
+      "FROM",
+      "WHERE"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 114,
+    "question": "What is a correlated subquery?",
+    "options": [
+      "Depends on outer query",
+      "Independent",
+      "Always true",
+      "Updates data"
+    ],
+    "answer": "Depends on outer query",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
     "topic": "SQL Subqueries"
   },
   {
-    "id": 116,
-    "question": "[SQL - Beginner - SQL Subqueries] Question 6?",
+    "id": 115,
+    "question": "Which statement uses subqueries?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "UPDATE",
+      "DELETE",
+      "INSERT"
     ],
-    "answer": "Option A",
+    "answer": [
+      "SELECT",
+      "UPDATE",
+      "DELETE",
+      "INSERT"
+    ],
+    "multiSelect": true,
+    "level": "Beginner",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 116,
+    "question": "What is a scalar subquery?",
+    "options": [
+      "Returns one value",
+      "Returns multiple rows",
+      "Updates data",
+      "Deletes data"
+    ],
+    "answer": "Returns one value",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
@@ -1879,16 +1802,17 @@
   },
   {
     "id": 117,
-    "question": "[SQL - Beginner - SQL Subqueries] Question 7?",
+    "question": "Which are valid subquery types?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Scalar",
+      "Correlated",
+      "Nested",
+      "Outer"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "Scalar",
+      "Correlated",
+      "Nested"
     ],
     "multiSelect": true,
     "level": "Beginner",
@@ -1897,29 +1821,33 @@
   },
   {
     "id": 118,
-    "question": "[SQL - Beginner - SQL Subqueries] Question 8?",
+    "question": "Where can subqueries appear?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "FROM",
+      "WHERE",
+      "ALL OF THESE"
     ],
-    "answer": "Option A",
-    "multiSelect": false,
+    "answer": [
+      "SELECT",
+      "FROM",
+      "WHERE"
+    ],
+    "multiSelect": true,
     "level": "Beginner",
     "technology": "SQL",
     "topic": "SQL Subqueries"
   },
   {
     "id": 119,
-    "question": "[SQL - Beginner - SQL Subqueries] Question 9?",
+    "question": "What is a correlated subquery?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Depends on outer query",
+      "Independent",
+      "Always true",
+      "Updates data"
     ],
-    "answer": "Option A",
+    "answer": "Depends on outer query",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "SQL",
@@ -1927,16 +1855,18 @@
   },
   {
     "id": 120,
-    "question": "[SQL - Beginner - SQL Subqueries] Question 10?",
+    "question": "Which statement uses subqueries?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "UPDATE",
+      "DELETE",
+      "INSERT"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "SELECT",
+      "UPDATE",
+      "DELETE",
+      "INSERT"
     ],
     "multiSelect": true,
     "level": "Beginner",
@@ -1945,32 +1875,29 @@
   },
   {
     "id": 121,
-    "question": "[SQL - Intermediate - SQL Basics] Question 1?",
+    "question": "Which SQL command is used to fetch data?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "FETCH",
+      "GET",
+      "SHOW"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "SELECT",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
     "topic": "SQL Basics"
   },
   {
     "id": 122,
-    "question": "[SQL - Intermediate - SQL Basics] Question 2?",
+    "question": "Which clause filters records in SQL?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "WHERE",
+      "HAVING",
+      "GROUP BY",
+      "LIMIT"
     ],
-    "answer": "Option A",
+    "answer": "WHERE",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
@@ -1978,14 +1905,14 @@
   },
   {
     "id": 123,
-    "question": "[SQL - Intermediate - SQL Basics] Question 3?",
+    "question": "Which keyword is used to sort results?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "ORDER BY",
+      "GROUP BY",
+      "SORT",
+      "ARRANGE"
     ],
-    "answer": "Option A",
+    "answer": "ORDER BY",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
@@ -1993,32 +1920,29 @@
   },
   {
     "id": 124,
-    "question": "[SQL - Intermediate - SQL Basics] Question 4?",
+    "question": "Which clause is used for aggregation?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "GROUP BY",
+      "SUM",
+      "SELECT",
+      "COLLECT"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "GROUP BY",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
     "topic": "SQL Basics"
   },
   {
     "id": 125,
-    "question": "[SQL - Intermediate - SQL Basics] Question 5?",
+    "question": "Which command removes all records from a table?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "DELETE",
+      "REMOVE",
+      "TRUNCATE",
+      "DROP"
     ],
-    "answer": "Option A",
+    "answer": "TRUNCATE",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
@@ -2026,14 +1950,14 @@
   },
   {
     "id": 126,
-    "question": "[SQL - Intermediate - SQL Basics] Question 6?",
+    "question": "Which SQL command is used to fetch data?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "FETCH",
+      "GET",
+      "SHOW"
     ],
-    "answer": "Option A",
+    "answer": "SELECT",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
@@ -2041,32 +1965,29 @@
   },
   {
     "id": 127,
-    "question": "[SQL - Intermediate - SQL Basics] Question 7?",
+    "question": "Which clause filters records in SQL?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "WHERE",
+      "HAVING",
+      "GROUP BY",
+      "LIMIT"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "WHERE",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
     "topic": "SQL Basics"
   },
   {
     "id": 128,
-    "question": "[SQL - Intermediate - SQL Basics] Question 8?",
+    "question": "Which keyword is used to sort results?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "ORDER BY",
+      "GROUP BY",
+      "SORT",
+      "ARRANGE"
     ],
-    "answer": "Option A",
+    "answer": "ORDER BY",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
@@ -2074,14 +1995,14 @@
   },
   {
     "id": 129,
-    "question": "[SQL - Intermediate - SQL Basics] Question 9?",
+    "question": "Which clause is used for aggregation?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "GROUP BY",
+      "SUM",
+      "SELECT",
+      "COLLECT"
     ],
-    "answer": "Option A",
+    "answer": "GROUP BY",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
@@ -2089,50 +2010,44 @@
   },
   {
     "id": 130,
-    "question": "[SQL - Intermediate - SQL Basics] Question 10?",
+    "question": "Which command removes all records from a table?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "DELETE",
+      "REMOVE",
+      "TRUNCATE",
+      "DROP"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "TRUNCATE",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
     "topic": "SQL Basics"
   },
   {
     "id": 131,
-    "question": "[SQL - Intermediate - SQL Joins] Question 1?",
+    "question": "Which join returns only matching rows?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "INNER JOIN",
+      "LEFT JOIN",
+      "FULL JOIN",
+      "RIGHT JOIN"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "INNER JOIN",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
     "topic": "SQL Joins"
   },
   {
     "id": 132,
-    "question": "[SQL - Intermediate - SQL Joins] Question 2?",
+    "question": "Which join returns all rows from the left table?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "LEFT JOIN",
+      "INNER JOIN",
+      "FULL JOIN",
+      "CROSS JOIN"
     ],
-    "answer": "Option A",
+    "answer": "LEFT JOIN",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
@@ -2140,14 +2055,14 @@
   },
   {
     "id": 133,
-    "question": "[SQL - Intermediate - SQL Joins] Question 3?",
+    "question": "Which keyword is used to join tables?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "JOIN",
+      "MERGE",
+      "LINK",
+      "COMBINE"
     ],
-    "answer": "Option A",
+    "answer": "JOIN",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
@@ -2155,32 +2070,29 @@
   },
   {
     "id": 134,
-    "question": "[SQL - Intermediate - SQL Joins] Question 4?",
+    "question": "Which join gives Cartesian product?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "CROSS JOIN",
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "CROSS JOIN",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
     "topic": "SQL Joins"
   },
   {
     "id": 135,
-    "question": "[SQL - Intermediate - SQL Joins] Question 5?",
+    "question": "Which SQL clause specifies join condition?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "ON",
+      "WHERE",
+      "HAVING",
+      "JOIN BY"
     ],
-    "answer": "Option A",
+    "answer": "ON",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
@@ -2188,14 +2100,14 @@
   },
   {
     "id": 136,
-    "question": "[SQL - Intermediate - SQL Joins] Question 6?",
+    "question": "Which join returns only matching rows?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "INNER JOIN",
+      "LEFT JOIN",
+      "FULL JOIN",
+      "RIGHT JOIN"
     ],
-    "answer": "Option A",
+    "answer": "INNER JOIN",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
@@ -2203,32 +2115,29 @@
   },
   {
     "id": 137,
-    "question": "[SQL - Intermediate - SQL Joins] Question 7?",
+    "question": "Which join returns all rows from the left table?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "LEFT JOIN",
+      "INNER JOIN",
+      "FULL JOIN",
+      "CROSS JOIN"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "LEFT JOIN",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
     "topic": "SQL Joins"
   },
   {
     "id": 138,
-    "question": "[SQL - Intermediate - SQL Joins] Question 8?",
+    "question": "Which keyword is used to join tables?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "JOIN",
+      "MERGE",
+      "LINK",
+      "COMBINE"
     ],
-    "answer": "Option A",
+    "answer": "JOIN",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
@@ -2236,14 +2145,14 @@
   },
   {
     "id": 139,
-    "question": "[SQL - Intermediate - SQL Joins] Question 9?",
+    "question": "Which join gives Cartesian product?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "CROSS JOIN",
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN"
     ],
-    "answer": "Option A",
+    "answer": "CROSS JOIN",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
@@ -2251,82 +2160,47 @@
   },
   {
     "id": 140,
-    "question": "[SQL - Intermediate - SQL Joins] Question 10?",
+    "question": "Which SQL clause specifies join condition?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "ON",
+      "WHERE",
+      "HAVING",
+      "JOIN BY"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "ON",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
     "topic": "SQL Joins"
   },
   {
     "id": 141,
-    "question": "[SQL - Intermediate - SQL Subqueries] Question 1?",
+    "question": "What is a scalar subquery?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Returns one value",
+      "Returns multiple rows",
+      "Updates data",
+      "Deletes data"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "Returns one value",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
     "topic": "SQL Subqueries"
   },
   {
     "id": 142,
-    "question": "[SQL - Intermediate - SQL Subqueries] Question 2?",
+    "question": "Which are valid subquery types?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Intermediate",
-    "technology": "SQL",
-    "topic": "SQL Subqueries"
-  },
-  {
-    "id": 143,
-    "question": "[SQL - Intermediate - SQL Subqueries] Question 3?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Intermediate",
-    "technology": "SQL",
-    "topic": "SQL Subqueries"
-  },
-  {
-    "id": 144,
-    "question": "[SQL - Intermediate - SQL Subqueries] Question 4?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Scalar",
+      "Correlated",
+      "Nested",
+      "Outer"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "Scalar",
+      "Correlated",
+      "Nested"
     ],
     "multiSelect": true,
     "level": "Intermediate",
@@ -2334,30 +2208,69 @@
     "topic": "SQL Subqueries"
   },
   {
-    "id": 145,
-    "question": "[SQL - Intermediate - SQL Subqueries] Question 5?",
+    "id": 143,
+    "question": "Where can subqueries appear?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "FROM",
+      "WHERE",
+      "ALL OF THESE"
     ],
-    "answer": "Option A",
+    "answer": [
+      "SELECT",
+      "FROM",
+      "WHERE"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 144,
+    "question": "What is a correlated subquery?",
+    "options": [
+      "Depends on outer query",
+      "Independent",
+      "Always true",
+      "Updates data"
+    ],
+    "answer": "Depends on outer query",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
     "topic": "SQL Subqueries"
   },
   {
-    "id": 146,
-    "question": "[SQL - Intermediate - SQL Subqueries] Question 6?",
+    "id": 145,
+    "question": "Which statement uses subqueries?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "UPDATE",
+      "DELETE",
+      "INSERT"
     ],
-    "answer": "Option A",
+    "answer": [
+      "SELECT",
+      "UPDATE",
+      "DELETE",
+      "INSERT"
+    ],
+    "multiSelect": true,
+    "level": "Intermediate",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 146,
+    "question": "What is a scalar subquery?",
+    "options": [
+      "Returns one value",
+      "Returns multiple rows",
+      "Updates data",
+      "Deletes data"
+    ],
+    "answer": "Returns one value",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
@@ -2365,16 +2278,17 @@
   },
   {
     "id": 147,
-    "question": "[SQL - Intermediate - SQL Subqueries] Question 7?",
+    "question": "Which are valid subquery types?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Scalar",
+      "Correlated",
+      "Nested",
+      "Outer"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "Scalar",
+      "Correlated",
+      "Nested"
     ],
     "multiSelect": true,
     "level": "Intermediate",
@@ -2383,29 +2297,33 @@
   },
   {
     "id": 148,
-    "question": "[SQL - Intermediate - SQL Subqueries] Question 8?",
+    "question": "Where can subqueries appear?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "FROM",
+      "WHERE",
+      "ALL OF THESE"
     ],
-    "answer": "Option A",
-    "multiSelect": false,
+    "answer": [
+      "SELECT",
+      "FROM",
+      "WHERE"
+    ],
+    "multiSelect": true,
     "level": "Intermediate",
     "technology": "SQL",
     "topic": "SQL Subqueries"
   },
   {
     "id": 149,
-    "question": "[SQL - Intermediate - SQL Subqueries] Question 9?",
+    "question": "What is a correlated subquery?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Depends on outer query",
+      "Independent",
+      "Always true",
+      "Updates data"
     ],
-    "answer": "Option A",
+    "answer": "Depends on outer query",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "SQL",
@@ -2413,16 +2331,18 @@
   },
   {
     "id": 150,
-    "question": "[SQL - Intermediate - SQL Subqueries] Question 10?",
+    "question": "Which statement uses subqueries?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "UPDATE",
+      "DELETE",
+      "INSERT"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "SELECT",
+      "UPDATE",
+      "DELETE",
+      "INSERT"
     ],
     "multiSelect": true,
     "level": "Intermediate",
@@ -2431,32 +2351,29 @@
   },
   {
     "id": 151,
-    "question": "[SQL - Expert - SQL Basics] Question 1?",
+    "question": "Which SQL command is used to fetch data?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "FETCH",
+      "GET",
+      "SHOW"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "SELECT",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
     "topic": "SQL Basics"
   },
   {
     "id": 152,
-    "question": "[SQL - Expert - SQL Basics] Question 2?",
+    "question": "Which clause filters records in SQL?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "WHERE",
+      "HAVING",
+      "GROUP BY",
+      "LIMIT"
     ],
-    "answer": "Option A",
+    "answer": "WHERE",
     "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
@@ -2464,14 +2381,14 @@
   },
   {
     "id": 153,
-    "question": "[SQL - Expert - SQL Basics] Question 3?",
+    "question": "Which keyword is used to sort results?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "ORDER BY",
+      "GROUP BY",
+      "SORT",
+      "ARRANGE"
     ],
-    "answer": "Option A",
+    "answer": "ORDER BY",
     "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
@@ -2479,32 +2396,29 @@
   },
   {
     "id": 154,
-    "question": "[SQL - Expert - SQL Basics] Question 4?",
+    "question": "Which clause is used for aggregation?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "GROUP BY",
+      "SUM",
+      "SELECT",
+      "COLLECT"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "GROUP BY",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
     "topic": "SQL Basics"
   },
   {
     "id": 155,
-    "question": "[SQL - Expert - SQL Basics] Question 5?",
+    "question": "Which command removes all records from a table?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "DELETE",
+      "REMOVE",
+      "TRUNCATE",
+      "DROP"
     ],
-    "answer": "Option A",
+    "answer": "TRUNCATE",
     "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
@@ -2512,14 +2426,14 @@
   },
   {
     "id": 156,
-    "question": "[SQL - Expert - SQL Basics] Question 6?",
+    "question": "Which SQL command is used to fetch data?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "FETCH",
+      "GET",
+      "SHOW"
     ],
-    "answer": "Option A",
+    "answer": "SELECT",
     "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
@@ -2527,32 +2441,29 @@
   },
   {
     "id": 157,
-    "question": "[SQL - Expert - SQL Basics] Question 7?",
+    "question": "Which clause filters records in SQL?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "WHERE",
+      "HAVING",
+      "GROUP BY",
+      "LIMIT"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "WHERE",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
     "topic": "SQL Basics"
   },
   {
     "id": 158,
-    "question": "[SQL - Expert - SQL Basics] Question 8?",
+    "question": "Which keyword is used to sort results?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "ORDER BY",
+      "GROUP BY",
+      "SORT",
+      "ARRANGE"
     ],
-    "answer": "Option A",
+    "answer": "ORDER BY",
     "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
@@ -2560,14 +2471,14 @@
   },
   {
     "id": 159,
-    "question": "[SQL - Expert - SQL Basics] Question 9?",
+    "question": "Which clause is used for aggregation?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "GROUP BY",
+      "SUM",
+      "SELECT",
+      "COLLECT"
     ],
-    "answer": "Option A",
+    "answer": "GROUP BY",
     "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
@@ -2575,50 +2486,44 @@
   },
   {
     "id": 160,
-    "question": "[SQL - Expert - SQL Basics] Question 10?",
+    "question": "Which command removes all records from a table?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "DELETE",
+      "REMOVE",
+      "TRUNCATE",
+      "DROP"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "TRUNCATE",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
     "topic": "SQL Basics"
   },
   {
     "id": 161,
-    "question": "[SQL - Expert - SQL Joins] Question 1?",
+    "question": "Which join returns only matching rows?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "INNER JOIN",
+      "LEFT JOIN",
+      "FULL JOIN",
+      "RIGHT JOIN"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "INNER JOIN",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
     "topic": "SQL Joins"
   },
   {
     "id": 162,
-    "question": "[SQL - Expert - SQL Joins] Question 2?",
+    "question": "Which join returns all rows from the left table?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "LEFT JOIN",
+      "INNER JOIN",
+      "FULL JOIN",
+      "CROSS JOIN"
     ],
-    "answer": "Option A",
+    "answer": "LEFT JOIN",
     "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
@@ -2626,14 +2531,14 @@
   },
   {
     "id": 163,
-    "question": "[SQL - Expert - SQL Joins] Question 3?",
+    "question": "Which keyword is used to join tables?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "JOIN",
+      "MERGE",
+      "LINK",
+      "COMBINE"
     ],
-    "answer": "Option A",
+    "answer": "JOIN",
     "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
@@ -2641,32 +2546,29 @@
   },
   {
     "id": 164,
-    "question": "[SQL - Expert - SQL Joins] Question 4?",
+    "question": "Which join gives Cartesian product?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "CROSS JOIN",
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "CROSS JOIN",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
     "topic": "SQL Joins"
   },
   {
     "id": 165,
-    "question": "[SQL - Expert - SQL Joins] Question 5?",
+    "question": "Which SQL clause specifies join condition?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "ON",
+      "WHERE",
+      "HAVING",
+      "JOIN BY"
     ],
-    "answer": "Option A",
+    "answer": "ON",
     "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
@@ -2674,14 +2576,14 @@
   },
   {
     "id": 166,
-    "question": "[SQL - Expert - SQL Joins] Question 6?",
+    "question": "Which join returns only matching rows?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "INNER JOIN",
+      "LEFT JOIN",
+      "FULL JOIN",
+      "RIGHT JOIN"
     ],
-    "answer": "Option A",
+    "answer": "INNER JOIN",
     "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
@@ -2689,32 +2591,29 @@
   },
   {
     "id": 167,
-    "question": "[SQL - Expert - SQL Joins] Question 7?",
+    "question": "Which join returns all rows from the left table?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "LEFT JOIN",
+      "INNER JOIN",
+      "FULL JOIN",
+      "CROSS JOIN"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "LEFT JOIN",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
     "topic": "SQL Joins"
   },
   {
     "id": 168,
-    "question": "[SQL - Expert - SQL Joins] Question 8?",
+    "question": "Which keyword is used to join tables?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "JOIN",
+      "MERGE",
+      "LINK",
+      "COMBINE"
     ],
-    "answer": "Option A",
+    "answer": "JOIN",
     "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
@@ -2722,14 +2621,14 @@
   },
   {
     "id": 169,
-    "question": "[SQL - Expert - SQL Joins] Question 9?",
+    "question": "Which join gives Cartesian product?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "CROSS JOIN",
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN"
     ],
-    "answer": "Option A",
+    "answer": "CROSS JOIN",
     "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
@@ -2737,82 +2636,47 @@
   },
   {
     "id": 170,
-    "question": "[SQL - Expert - SQL Joins] Question 10?",
+    "question": "Which SQL clause specifies join condition?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "ON",
+      "WHERE",
+      "HAVING",
+      "JOIN BY"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "ON",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
     "topic": "SQL Joins"
   },
   {
     "id": 171,
-    "question": "[SQL - Expert - SQL Subqueries] Question 1?",
+    "question": "What is a scalar subquery?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Returns one value",
+      "Returns multiple rows",
+      "Updates data",
+      "Deletes data"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "Returns one value",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
     "topic": "SQL Subqueries"
   },
   {
     "id": 172,
-    "question": "[SQL - Expert - SQL Subqueries] Question 2?",
+    "question": "Which are valid subquery types?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Expert",
-    "technology": "SQL",
-    "topic": "SQL Subqueries"
-  },
-  {
-    "id": 173,
-    "question": "[SQL - Expert - SQL Subqueries] Question 3?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Expert",
-    "technology": "SQL",
-    "topic": "SQL Subqueries"
-  },
-  {
-    "id": 174,
-    "question": "[SQL - Expert - SQL Subqueries] Question 4?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Scalar",
+      "Correlated",
+      "Nested",
+      "Outer"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "Scalar",
+      "Correlated",
+      "Nested"
     ],
     "multiSelect": true,
     "level": "Expert",
@@ -2820,30 +2684,69 @@
     "topic": "SQL Subqueries"
   },
   {
-    "id": 175,
-    "question": "[SQL - Expert - SQL Subqueries] Question 5?",
+    "id": 173,
+    "question": "Where can subqueries appear?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "FROM",
+      "WHERE",
+      "ALL OF THESE"
     ],
-    "answer": "Option A",
+    "answer": [
+      "SELECT",
+      "FROM",
+      "WHERE"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 174,
+    "question": "What is a correlated subquery?",
+    "options": [
+      "Depends on outer query",
+      "Independent",
+      "Always true",
+      "Updates data"
+    ],
+    "answer": "Depends on outer query",
     "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
     "topic": "SQL Subqueries"
   },
   {
-    "id": 176,
-    "question": "[SQL - Expert - SQL Subqueries] Question 6?",
+    "id": 175,
+    "question": "Which statement uses subqueries?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "UPDATE",
+      "DELETE",
+      "INSERT"
     ],
-    "answer": "Option A",
+    "answer": [
+      "SELECT",
+      "UPDATE",
+      "DELETE",
+      "INSERT"
+    ],
+    "multiSelect": true,
+    "level": "Expert",
+    "technology": "SQL",
+    "topic": "SQL Subqueries"
+  },
+  {
+    "id": 176,
+    "question": "What is a scalar subquery?",
+    "options": [
+      "Returns one value",
+      "Returns multiple rows",
+      "Updates data",
+      "Deletes data"
+    ],
+    "answer": "Returns one value",
     "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
@@ -2851,16 +2754,17 @@
   },
   {
     "id": 177,
-    "question": "[SQL - Expert - SQL Subqueries] Question 7?",
+    "question": "Which are valid subquery types?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Scalar",
+      "Correlated",
+      "Nested",
+      "Outer"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "Scalar",
+      "Correlated",
+      "Nested"
     ],
     "multiSelect": true,
     "level": "Expert",
@@ -2869,29 +2773,33 @@
   },
   {
     "id": 178,
-    "question": "[SQL - Expert - SQL Subqueries] Question 8?",
+    "question": "Where can subqueries appear?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "FROM",
+      "WHERE",
+      "ALL OF THESE"
     ],
-    "answer": "Option A",
-    "multiSelect": false,
+    "answer": [
+      "SELECT",
+      "FROM",
+      "WHERE"
+    ],
+    "multiSelect": true,
     "level": "Expert",
     "technology": "SQL",
     "topic": "SQL Subqueries"
   },
   {
     "id": 179,
-    "question": "[SQL - Expert - SQL Subqueries] Question 9?",
+    "question": "What is a correlated subquery?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Depends on outer query",
+      "Independent",
+      "Always true",
+      "Updates data"
     ],
-    "answer": "Option A",
+    "answer": "Depends on outer query",
     "multiSelect": false,
     "level": "Expert",
     "technology": "SQL",
@@ -2899,16 +2807,18 @@
   },
   {
     "id": 180,
-    "question": "[SQL - Expert - SQL Subqueries] Question 10?",
+    "question": "Which statement uses subqueries?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "SELECT",
+      "UPDATE",
+      "DELETE",
+      "INSERT"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "SELECT",
+      "UPDATE",
+      "DELETE",
+      "INSERT"
     ],
     "multiSelect": true,
     "level": "Expert",
@@ -2917,32 +2827,29 @@
   },
   {
     "id": 181,
-    "question": "[No SQL - Beginner - MongoDB Basics] Question 1?",
+    "question": "Which method fetches documents in MongoDB?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "find()",
+      "get()",
+      "fetch()",
+      "select()"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "find()",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
     "topic": "MongoDB Basics"
   },
   {
     "id": 182,
-    "question": "[No SQL - Beginner - MongoDB Basics] Question 2?",
+    "question": "MongoDB stores data in?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Documents",
+      "Tables",
+      "Rows",
+      "Sheets"
     ],
-    "answer": "Option A",
+    "answer": "Documents",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
@@ -2950,14 +2857,14 @@
   },
   {
     "id": 183,
-    "question": "[No SQL - Beginner - MongoDB Basics] Question 3?",
+    "question": "What format is used in MongoDB?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "JSON",
+      "XML",
+      "CSV",
+      "YAML"
     ],
-    "answer": "Option A",
+    "answer": "JSON",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
@@ -2965,32 +2872,29 @@
   },
   {
     "id": 184,
-    "question": "[No SQL - Beginner - MongoDB Basics] Question 4?",
+    "question": "Which is a MongoDB shell?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "mongosh",
+      "mongo",
+      "mongocli",
+      "mongobase"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "mongosh",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
     "topic": "MongoDB Basics"
   },
   {
     "id": 185,
-    "question": "[No SQL - Beginner - MongoDB Basics] Question 5?",
+    "question": "Which command shows databases?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "show dbs",
+      "list databases",
+      "get dbs",
+      "display dbs"
     ],
-    "answer": "Option A",
+    "answer": "show dbs",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
@@ -2998,14 +2902,14 @@
   },
   {
     "id": 186,
-    "question": "[No SQL - Beginner - MongoDB Basics] Question 6?",
+    "question": "Which method fetches documents in MongoDB?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "find()",
+      "get()",
+      "fetch()",
+      "select()"
     ],
-    "answer": "Option A",
+    "answer": "find()",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
@@ -3013,32 +2917,29 @@
   },
   {
     "id": 187,
-    "question": "[No SQL - Beginner - MongoDB Basics] Question 7?",
+    "question": "MongoDB stores data in?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Documents",
+      "Tables",
+      "Rows",
+      "Sheets"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "Documents",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
     "topic": "MongoDB Basics"
   },
   {
     "id": 188,
-    "question": "[No SQL - Beginner - MongoDB Basics] Question 8?",
+    "question": "What format is used in MongoDB?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "JSON",
+      "XML",
+      "CSV",
+      "YAML"
     ],
-    "answer": "Option A",
+    "answer": "JSON",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
@@ -3046,14 +2947,14 @@
   },
   {
     "id": 189,
-    "question": "[No SQL - Beginner - MongoDB Basics] Question 9?",
+    "question": "Which is a MongoDB shell?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "mongosh",
+      "mongo",
+      "mongocli",
+      "mongobase"
     ],
-    "answer": "Option A",
+    "answer": "mongosh",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
@@ -3061,34 +2962,48 @@
   },
   {
     "id": 190,
-    "question": "[No SQL - Beginner - MongoDB Basics] Question 10?",
+    "question": "Which command shows databases?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "show dbs",
+      "list databases",
+      "get dbs",
+      "display dbs"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "show dbs",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
     "topic": "MongoDB Basics"
   },
   {
     "id": 191,
-    "question": "[No SQL - Beginner - MongoDB Query] Question 1?",
+    "question": "Which operator matches values in a list?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$in",
+      "$eq",
+      "$or",
+      "$list"
+    ],
+    "answer": "$in",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 192,
+    "question": "Which operators are valid?",
+    "options": [
+      "$gt",
+      "$lt",
+      "$in",
+      "$eq"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "$gt",
+      "$lt",
+      "$in",
+      "$eq"
     ],
     "multiSelect": true,
     "level": "Beginner",
@@ -3096,30 +3011,15 @@
     "topic": "MongoDB Query"
   },
   {
-    "id": 192,
-    "question": "[No SQL - Beginner - MongoDB Query] Question 2?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Beginner",
-    "technology": "No SQL",
-    "topic": "MongoDB Query"
-  },
-  {
     "id": 193,
-    "question": "[No SQL - Beginner - MongoDB Query] Question 3?",
+    "question": "Which clause updates documents?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "updateOne()",
+      "set()",
+      "insert()",
+      "findAndModify()"
     ],
-    "answer": "Option A",
+    "answer": "updateOne()",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
@@ -3127,32 +3027,29 @@
   },
   {
     "id": 194,
-    "question": "[No SQL - Beginner - MongoDB Query] Question 4?",
+    "question": "Which keyword adds a field?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$set",
+      "$add",
+      "$push",
+      "$append"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "$set",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
     "topic": "MongoDB Query"
   },
   {
     "id": 195,
-    "question": "[No SQL - Beginner - MongoDB Query] Question 5?",
+    "question": "How do you filter with AND condition?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$and",
+      "$both",
+      "$&&",
+      "$combine"
     ],
-    "answer": "Option A",
+    "answer": "$and",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
@@ -3160,14 +3057,14 @@
   },
   {
     "id": 196,
-    "question": "[No SQL - Beginner - MongoDB Query] Question 6?",
+    "question": "Which operator matches values in a list?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$in",
+      "$eq",
+      "$or",
+      "$list"
     ],
-    "answer": "Option A",
+    "answer": "$in",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
@@ -3175,16 +3072,18 @@
   },
   {
     "id": 197,
-    "question": "[No SQL - Beginner - MongoDB Query] Question 7?",
+    "question": "Which operators are valid?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$gt",
+      "$lt",
+      "$in",
+      "$eq"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "$gt",
+      "$lt",
+      "$in",
+      "$eq"
     ],
     "multiSelect": true,
     "level": "Beginner",
@@ -3193,14 +3092,14 @@
   },
   {
     "id": 198,
-    "question": "[No SQL - Beginner - MongoDB Query] Question 8?",
+    "question": "Which clause updates documents?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "updateOne()",
+      "set()",
+      "insert()",
+      "findAndModify()"
     ],
-    "answer": "Option A",
+    "answer": "updateOne()",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
@@ -3208,14 +3107,14 @@
   },
   {
     "id": 199,
-    "question": "[No SQL - Beginner - MongoDB Query] Question 9?",
+    "question": "Which keyword adds a field?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$set",
+      "$add",
+      "$push",
+      "$append"
     ],
-    "answer": "Option A",
+    "answer": "$set",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
@@ -3223,50 +3122,44 @@
   },
   {
     "id": 200,
-    "question": "[No SQL - Beginner - MongoDB Query] Question 10?",
+    "question": "How do you filter with AND condition?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$and",
+      "$both",
+      "$&&",
+      "$combine"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "$and",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
     "topic": "MongoDB Query"
   },
   {
     "id": 201,
-    "question": "[No SQL - Beginner - MongoDB Indexes] Question 1?",
+    "question": "Which command creates an index?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "createIndex()",
+      "addIndex()",
+      "makeIndex()",
+      "newIndex()"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "createIndex()",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
     "topic": "MongoDB Indexes"
   },
   {
     "id": 202,
-    "question": "[No SQL - Beginner - MongoDB Indexes] Question 2?",
+    "question": "Why are indexes used?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Speed up queries",
+      "Prevent updates",
+      "Secure data",
+      "Join tables"
     ],
-    "answer": "Option A",
+    "answer": "Speed up queries",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
@@ -3274,14 +3167,14 @@
   },
   {
     "id": 203,
-    "question": "[No SQL - Beginner - MongoDB Indexes] Question 3?",
+    "question": "Which index ensures unique values?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "unique: true",
+      "primary: key",
+      "distinct()",
+      "onlyOne()"
     ],
-    "answer": "Option A",
+    "answer": "unique: true",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
@@ -3289,16 +3182,33 @@
   },
   {
     "id": 204,
-    "question": "[No SQL - Beginner - MongoDB Indexes] Question 4?",
+    "question": "What is the default index?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "_id",
+      "index",
+      "main",
+      "auto"
+    ],
+    "answer": "_id",
+    "multiSelect": false,
+    "level": "Beginner",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 205,
+    "question": "Which types of indexes exist?",
+    "options": [
+      "Single field",
+      "Compound",
+      "Multikey",
+      "Text"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "Single field",
+      "Compound",
+      "Multikey",
+      "Text"
     ],
     "multiSelect": true,
     "level": "Beginner",
@@ -3306,30 +3216,15 @@
     "topic": "MongoDB Indexes"
   },
   {
-    "id": 205,
-    "question": "[No SQL - Beginner - MongoDB Indexes] Question 5?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Beginner",
-    "technology": "No SQL",
-    "topic": "MongoDB Indexes"
-  },
-  {
     "id": 206,
-    "question": "[No SQL - Beginner - MongoDB Indexes] Question 6?",
+    "question": "Which command creates an index?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "createIndex()",
+      "addIndex()",
+      "makeIndex()",
+      "newIndex()"
     ],
-    "answer": "Option A",
+    "answer": "createIndex()",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
@@ -3337,32 +3232,29 @@
   },
   {
     "id": 207,
-    "question": "[No SQL - Beginner - MongoDB Indexes] Question 7?",
+    "question": "Why are indexes used?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Speed up queries",
+      "Prevent updates",
+      "Secure data",
+      "Join tables"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "Speed up queries",
+    "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
     "topic": "MongoDB Indexes"
   },
   {
     "id": 208,
-    "question": "[No SQL - Beginner - MongoDB Indexes] Question 8?",
+    "question": "Which index ensures unique values?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "unique: true",
+      "primary: key",
+      "distinct()",
+      "onlyOne()"
     ],
-    "answer": "Option A",
+    "answer": "unique: true",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
@@ -3370,14 +3262,14 @@
   },
   {
     "id": 209,
-    "question": "[No SQL - Beginner - MongoDB Indexes] Question 9?",
+    "question": "What is the default index?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "_id",
+      "index",
+      "main",
+      "auto"
     ],
-    "answer": "Option A",
+    "answer": "_id",
     "multiSelect": false,
     "level": "Beginner",
     "technology": "No SQL",
@@ -3385,16 +3277,18 @@
   },
   {
     "id": 210,
-    "question": "[No SQL - Beginner - MongoDB Indexes] Question 10?",
+    "question": "Which types of indexes exist?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Single field",
+      "Compound",
+      "Multikey",
+      "Text"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "Single field",
+      "Compound",
+      "Multikey",
+      "Text"
     ],
     "multiSelect": true,
     "level": "Beginner",
@@ -3403,32 +3297,29 @@
   },
   {
     "id": 211,
-    "question": "[No SQL - Intermediate - MongoDB Basics] Question 1?",
+    "question": "Which method fetches documents in MongoDB?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "find()",
+      "get()",
+      "fetch()",
+      "select()"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "find()",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
     "topic": "MongoDB Basics"
   },
   {
     "id": 212,
-    "question": "[No SQL - Intermediate - MongoDB Basics] Question 2?",
+    "question": "MongoDB stores data in?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Documents",
+      "Tables",
+      "Rows",
+      "Sheets"
     ],
-    "answer": "Option A",
+    "answer": "Documents",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
@@ -3436,14 +3327,14 @@
   },
   {
     "id": 213,
-    "question": "[No SQL - Intermediate - MongoDB Basics] Question 3?",
+    "question": "What format is used in MongoDB?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "JSON",
+      "XML",
+      "CSV",
+      "YAML"
     ],
-    "answer": "Option A",
+    "answer": "JSON",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
@@ -3451,32 +3342,29 @@
   },
   {
     "id": 214,
-    "question": "[No SQL - Intermediate - MongoDB Basics] Question 4?",
+    "question": "Which is a MongoDB shell?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "mongosh",
+      "mongo",
+      "mongocli",
+      "mongobase"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "mongosh",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
     "topic": "MongoDB Basics"
   },
   {
     "id": 215,
-    "question": "[No SQL - Intermediate - MongoDB Basics] Question 5?",
+    "question": "Which command shows databases?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "show dbs",
+      "list databases",
+      "get dbs",
+      "display dbs"
     ],
-    "answer": "Option A",
+    "answer": "show dbs",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
@@ -3484,14 +3372,14 @@
   },
   {
     "id": 216,
-    "question": "[No SQL - Intermediate - MongoDB Basics] Question 6?",
+    "question": "Which method fetches documents in MongoDB?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "find()",
+      "get()",
+      "fetch()",
+      "select()"
     ],
-    "answer": "Option A",
+    "answer": "find()",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
@@ -3499,32 +3387,29 @@
   },
   {
     "id": 217,
-    "question": "[No SQL - Intermediate - MongoDB Basics] Question 7?",
+    "question": "MongoDB stores data in?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Documents",
+      "Tables",
+      "Rows",
+      "Sheets"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "Documents",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
     "topic": "MongoDB Basics"
   },
   {
     "id": 218,
-    "question": "[No SQL - Intermediate - MongoDB Basics] Question 8?",
+    "question": "What format is used in MongoDB?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "JSON",
+      "XML",
+      "CSV",
+      "YAML"
     ],
-    "answer": "Option A",
+    "answer": "JSON",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
@@ -3532,14 +3417,14 @@
   },
   {
     "id": 219,
-    "question": "[No SQL - Intermediate - MongoDB Basics] Question 9?",
+    "question": "Which is a MongoDB shell?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "mongosh",
+      "mongo",
+      "mongocli",
+      "mongobase"
     ],
-    "answer": "Option A",
+    "answer": "mongosh",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
@@ -3547,34 +3432,48 @@
   },
   {
     "id": 220,
-    "question": "[No SQL - Intermediate - MongoDB Basics] Question 10?",
+    "question": "Which command shows databases?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "show dbs",
+      "list databases",
+      "get dbs",
+      "display dbs"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "show dbs",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
     "topic": "MongoDB Basics"
   },
   {
     "id": 221,
-    "question": "[No SQL - Intermediate - MongoDB Query] Question 1?",
+    "question": "Which operator matches values in a list?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$in",
+      "$eq",
+      "$or",
+      "$list"
+    ],
+    "answer": "$in",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 222,
+    "question": "Which operators are valid?",
+    "options": [
+      "$gt",
+      "$lt",
+      "$in",
+      "$eq"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "$gt",
+      "$lt",
+      "$in",
+      "$eq"
     ],
     "multiSelect": true,
     "level": "Intermediate",
@@ -3582,30 +3481,15 @@
     "topic": "MongoDB Query"
   },
   {
-    "id": 222,
-    "question": "[No SQL - Intermediate - MongoDB Query] Question 2?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Intermediate",
-    "technology": "No SQL",
-    "topic": "MongoDB Query"
-  },
-  {
     "id": 223,
-    "question": "[No SQL - Intermediate - MongoDB Query] Question 3?",
+    "question": "Which clause updates documents?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "updateOne()",
+      "set()",
+      "insert()",
+      "findAndModify()"
     ],
-    "answer": "Option A",
+    "answer": "updateOne()",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
@@ -3613,32 +3497,29 @@
   },
   {
     "id": 224,
-    "question": "[No SQL - Intermediate - MongoDB Query] Question 4?",
+    "question": "Which keyword adds a field?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$set",
+      "$add",
+      "$push",
+      "$append"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "$set",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
     "topic": "MongoDB Query"
   },
   {
     "id": 225,
-    "question": "[No SQL - Intermediate - MongoDB Query] Question 5?",
+    "question": "How do you filter with AND condition?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$and",
+      "$both",
+      "$&&",
+      "$combine"
     ],
-    "answer": "Option A",
+    "answer": "$and",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
@@ -3646,14 +3527,14 @@
   },
   {
     "id": 226,
-    "question": "[No SQL - Intermediate - MongoDB Query] Question 6?",
+    "question": "Which operator matches values in a list?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$in",
+      "$eq",
+      "$or",
+      "$list"
     ],
-    "answer": "Option A",
+    "answer": "$in",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
@@ -3661,16 +3542,18 @@
   },
   {
     "id": 227,
-    "question": "[No SQL - Intermediate - MongoDB Query] Question 7?",
+    "question": "Which operators are valid?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$gt",
+      "$lt",
+      "$in",
+      "$eq"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "$gt",
+      "$lt",
+      "$in",
+      "$eq"
     ],
     "multiSelect": true,
     "level": "Intermediate",
@@ -3679,14 +3562,14 @@
   },
   {
     "id": 228,
-    "question": "[No SQL - Intermediate - MongoDB Query] Question 8?",
+    "question": "Which clause updates documents?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "updateOne()",
+      "set()",
+      "insert()",
+      "findAndModify()"
     ],
-    "answer": "Option A",
+    "answer": "updateOne()",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
@@ -3694,14 +3577,14 @@
   },
   {
     "id": 229,
-    "question": "[No SQL - Intermediate - MongoDB Query] Question 9?",
+    "question": "Which keyword adds a field?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$set",
+      "$add",
+      "$push",
+      "$append"
     ],
-    "answer": "Option A",
+    "answer": "$set",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
@@ -3709,50 +3592,44 @@
   },
   {
     "id": 230,
-    "question": "[No SQL - Intermediate - MongoDB Query] Question 10?",
+    "question": "How do you filter with AND condition?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$and",
+      "$both",
+      "$&&",
+      "$combine"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "$and",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
     "topic": "MongoDB Query"
   },
   {
     "id": 231,
-    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 1?",
+    "question": "Which command creates an index?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "createIndex()",
+      "addIndex()",
+      "makeIndex()",
+      "newIndex()"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "createIndex()",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
     "topic": "MongoDB Indexes"
   },
   {
     "id": 232,
-    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 2?",
+    "question": "Why are indexes used?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Speed up queries",
+      "Prevent updates",
+      "Secure data",
+      "Join tables"
     ],
-    "answer": "Option A",
+    "answer": "Speed up queries",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
@@ -3760,14 +3637,14 @@
   },
   {
     "id": 233,
-    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 3?",
+    "question": "Which index ensures unique values?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "unique: true",
+      "primary: key",
+      "distinct()",
+      "onlyOne()"
     ],
-    "answer": "Option A",
+    "answer": "unique: true",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
@@ -3775,16 +3652,33 @@
   },
   {
     "id": 234,
-    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 4?",
+    "question": "What is the default index?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "_id",
+      "index",
+      "main",
+      "auto"
+    ],
+    "answer": "_id",
+    "multiSelect": false,
+    "level": "Intermediate",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 235,
+    "question": "Which types of indexes exist?",
+    "options": [
+      "Single field",
+      "Compound",
+      "Multikey",
+      "Text"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "Single field",
+      "Compound",
+      "Multikey",
+      "Text"
     ],
     "multiSelect": true,
     "level": "Intermediate",
@@ -3792,30 +3686,15 @@
     "topic": "MongoDB Indexes"
   },
   {
-    "id": 235,
-    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 5?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Intermediate",
-    "technology": "No SQL",
-    "topic": "MongoDB Indexes"
-  },
-  {
     "id": 236,
-    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 6?",
+    "question": "Which command creates an index?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "createIndex()",
+      "addIndex()",
+      "makeIndex()",
+      "newIndex()"
     ],
-    "answer": "Option A",
+    "answer": "createIndex()",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
@@ -3823,32 +3702,29 @@
   },
   {
     "id": 237,
-    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 7?",
+    "question": "Why are indexes used?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Speed up queries",
+      "Prevent updates",
+      "Secure data",
+      "Join tables"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "Speed up queries",
+    "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
     "topic": "MongoDB Indexes"
   },
   {
     "id": 238,
-    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 8?",
+    "question": "Which index ensures unique values?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "unique: true",
+      "primary: key",
+      "distinct()",
+      "onlyOne()"
     ],
-    "answer": "Option A",
+    "answer": "unique: true",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
@@ -3856,14 +3732,14 @@
   },
   {
     "id": 239,
-    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 9?",
+    "question": "What is the default index?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "_id",
+      "index",
+      "main",
+      "auto"
     ],
-    "answer": "Option A",
+    "answer": "_id",
     "multiSelect": false,
     "level": "Intermediate",
     "technology": "No SQL",
@@ -3871,16 +3747,18 @@
   },
   {
     "id": 240,
-    "question": "[No SQL - Intermediate - MongoDB Indexes] Question 10?",
+    "question": "Which types of indexes exist?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Single field",
+      "Compound",
+      "Multikey",
+      "Text"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "Single field",
+      "Compound",
+      "Multikey",
+      "Text"
     ],
     "multiSelect": true,
     "level": "Intermediate",
@@ -3889,32 +3767,29 @@
   },
   {
     "id": 241,
-    "question": "[No SQL - Expert - MongoDB Basics] Question 1?",
+    "question": "Which method fetches documents in MongoDB?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "find()",
+      "get()",
+      "fetch()",
+      "select()"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "find()",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
     "topic": "MongoDB Basics"
   },
   {
     "id": 242,
-    "question": "[No SQL - Expert - MongoDB Basics] Question 2?",
+    "question": "MongoDB stores data in?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Documents",
+      "Tables",
+      "Rows",
+      "Sheets"
     ],
-    "answer": "Option A",
+    "answer": "Documents",
     "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
@@ -3922,14 +3797,14 @@
   },
   {
     "id": 243,
-    "question": "[No SQL - Expert - MongoDB Basics] Question 3?",
+    "question": "What format is used in MongoDB?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "JSON",
+      "XML",
+      "CSV",
+      "YAML"
     ],
-    "answer": "Option A",
+    "answer": "JSON",
     "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
@@ -3937,32 +3812,29 @@
   },
   {
     "id": 244,
-    "question": "[No SQL - Expert - MongoDB Basics] Question 4?",
+    "question": "Which is a MongoDB shell?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "mongosh",
+      "mongo",
+      "mongocli",
+      "mongobase"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "mongosh",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
     "topic": "MongoDB Basics"
   },
   {
     "id": 245,
-    "question": "[No SQL - Expert - MongoDB Basics] Question 5?",
+    "question": "Which command shows databases?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "show dbs",
+      "list databases",
+      "get dbs",
+      "display dbs"
     ],
-    "answer": "Option A",
+    "answer": "show dbs",
     "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
@@ -3970,14 +3842,14 @@
   },
   {
     "id": 246,
-    "question": "[No SQL - Expert - MongoDB Basics] Question 6?",
+    "question": "Which method fetches documents in MongoDB?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "find()",
+      "get()",
+      "fetch()",
+      "select()"
     ],
-    "answer": "Option A",
+    "answer": "find()",
     "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
@@ -3985,32 +3857,29 @@
   },
   {
     "id": 247,
-    "question": "[No SQL - Expert - MongoDB Basics] Question 7?",
+    "question": "MongoDB stores data in?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Documents",
+      "Tables",
+      "Rows",
+      "Sheets"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "Documents",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
     "topic": "MongoDB Basics"
   },
   {
     "id": 248,
-    "question": "[No SQL - Expert - MongoDB Basics] Question 8?",
+    "question": "What format is used in MongoDB?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "JSON",
+      "XML",
+      "CSV",
+      "YAML"
     ],
-    "answer": "Option A",
+    "answer": "JSON",
     "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
@@ -4018,14 +3887,14 @@
   },
   {
     "id": 249,
-    "question": "[No SQL - Expert - MongoDB Basics] Question 9?",
+    "question": "Which is a MongoDB shell?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "mongosh",
+      "mongo",
+      "mongocli",
+      "mongobase"
     ],
-    "answer": "Option A",
+    "answer": "mongosh",
     "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
@@ -4033,34 +3902,48 @@
   },
   {
     "id": 250,
-    "question": "[No SQL - Expert - MongoDB Basics] Question 10?",
+    "question": "Which command shows databases?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "show dbs",
+      "list databases",
+      "get dbs",
+      "display dbs"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "show dbs",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
     "topic": "MongoDB Basics"
   },
   {
     "id": 251,
-    "question": "[No SQL - Expert - MongoDB Query] Question 1?",
+    "question": "Which operator matches values in a list?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$in",
+      "$eq",
+      "$or",
+      "$list"
+    ],
+    "answer": "$in",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Query"
+  },
+  {
+    "id": 252,
+    "question": "Which operators are valid?",
+    "options": [
+      "$gt",
+      "$lt",
+      "$in",
+      "$eq"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "$gt",
+      "$lt",
+      "$in",
+      "$eq"
     ],
     "multiSelect": true,
     "level": "Expert",
@@ -4068,30 +3951,15 @@
     "topic": "MongoDB Query"
   },
   {
-    "id": 252,
-    "question": "[No SQL - Expert - MongoDB Query] Question 2?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Expert",
-    "technology": "No SQL",
-    "topic": "MongoDB Query"
-  },
-  {
     "id": 253,
-    "question": "[No SQL - Expert - MongoDB Query] Question 3?",
+    "question": "Which clause updates documents?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "updateOne()",
+      "set()",
+      "insert()",
+      "findAndModify()"
     ],
-    "answer": "Option A",
+    "answer": "updateOne()",
     "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
@@ -4099,32 +3967,29 @@
   },
   {
     "id": 254,
-    "question": "[No SQL - Expert - MongoDB Query] Question 4?",
+    "question": "Which keyword adds a field?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$set",
+      "$add",
+      "$push",
+      "$append"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "$set",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
     "topic": "MongoDB Query"
   },
   {
     "id": 255,
-    "question": "[No SQL - Expert - MongoDB Query] Question 5?",
+    "question": "How do you filter with AND condition?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$and",
+      "$both",
+      "$&&",
+      "$combine"
     ],
-    "answer": "Option A",
+    "answer": "$and",
     "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
@@ -4132,14 +3997,14 @@
   },
   {
     "id": 256,
-    "question": "[No SQL - Expert - MongoDB Query] Question 6?",
+    "question": "Which operator matches values in a list?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$in",
+      "$eq",
+      "$or",
+      "$list"
     ],
-    "answer": "Option A",
+    "answer": "$in",
     "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
@@ -4147,16 +4012,18 @@
   },
   {
     "id": 257,
-    "question": "[No SQL - Expert - MongoDB Query] Question 7?",
+    "question": "Which operators are valid?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$gt",
+      "$lt",
+      "$in",
+      "$eq"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "$gt",
+      "$lt",
+      "$in",
+      "$eq"
     ],
     "multiSelect": true,
     "level": "Expert",
@@ -4165,14 +4032,14 @@
   },
   {
     "id": 258,
-    "question": "[No SQL - Expert - MongoDB Query] Question 8?",
+    "question": "Which clause updates documents?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "updateOne()",
+      "set()",
+      "insert()",
+      "findAndModify()"
     ],
-    "answer": "Option A",
+    "answer": "updateOne()",
     "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
@@ -4180,14 +4047,14 @@
   },
   {
     "id": 259,
-    "question": "[No SQL - Expert - MongoDB Query] Question 9?",
+    "question": "Which keyword adds a field?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$set",
+      "$add",
+      "$push",
+      "$append"
     ],
-    "answer": "Option A",
+    "answer": "$set",
     "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
@@ -4195,50 +4062,44 @@
   },
   {
     "id": 260,
-    "question": "[No SQL - Expert - MongoDB Query] Question 10?",
+    "question": "How do you filter with AND condition?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$and",
+      "$both",
+      "$&&",
+      "$combine"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "$and",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
     "topic": "MongoDB Query"
   },
   {
     "id": 261,
-    "question": "[No SQL - Expert - MongoDB Indexes] Question 1?",
+    "question": "Which command creates an index?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "createIndex()",
+      "addIndex()",
+      "makeIndex()",
+      "newIndex()"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "createIndex()",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
     "topic": "MongoDB Indexes"
   },
   {
     "id": 262,
-    "question": "[No SQL - Expert - MongoDB Indexes] Question 2?",
+    "question": "Why are indexes used?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Speed up queries",
+      "Prevent updates",
+      "Secure data",
+      "Join tables"
     ],
-    "answer": "Option A",
+    "answer": "Speed up queries",
     "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
@@ -4246,14 +4107,14 @@
   },
   {
     "id": 263,
-    "question": "[No SQL - Expert - MongoDB Indexes] Question 3?",
+    "question": "Which index ensures unique values?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "unique: true",
+      "primary: key",
+      "distinct()",
+      "onlyOne()"
     ],
-    "answer": "Option A",
+    "answer": "unique: true",
     "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
@@ -4261,16 +4122,33 @@
   },
   {
     "id": 264,
-    "question": "[No SQL - Expert - MongoDB Indexes] Question 4?",
+    "question": "What is the default index?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "_id",
+      "index",
+      "main",
+      "auto"
+    ],
+    "answer": "_id",
+    "multiSelect": false,
+    "level": "Expert",
+    "technology": "No SQL",
+    "topic": "MongoDB Indexes"
+  },
+  {
+    "id": 265,
+    "question": "Which types of indexes exist?",
+    "options": [
+      "Single field",
+      "Compound",
+      "Multikey",
+      "Text"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "Single field",
+      "Compound",
+      "Multikey",
+      "Text"
     ],
     "multiSelect": true,
     "level": "Expert",
@@ -4278,30 +4156,15 @@
     "topic": "MongoDB Indexes"
   },
   {
-    "id": 265,
-    "question": "[No SQL - Expert - MongoDB Indexes] Question 5?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "answer": "Option A",
-    "multiSelect": false,
-    "level": "Expert",
-    "technology": "No SQL",
-    "topic": "MongoDB Indexes"
-  },
-  {
     "id": 266,
-    "question": "[No SQL - Expert - MongoDB Indexes] Question 6?",
+    "question": "Which command creates an index?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "createIndex()",
+      "addIndex()",
+      "makeIndex()",
+      "newIndex()"
     ],
-    "answer": "Option A",
+    "answer": "createIndex()",
     "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
@@ -4309,32 +4172,29 @@
   },
   {
     "id": 267,
-    "question": "[No SQL - Expert - MongoDB Indexes] Question 7?",
+    "question": "Why are indexes used?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Speed up queries",
+      "Prevent updates",
+      "Secure data",
+      "Join tables"
     ],
-    "answer": [
-      "Option A",
-      "Option B"
-    ],
-    "multiSelect": true,
+    "answer": "Speed up queries",
+    "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
     "topic": "MongoDB Indexes"
   },
   {
     "id": 268,
-    "question": "[No SQL - Expert - MongoDB Indexes] Question 8?",
+    "question": "Which index ensures unique values?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "unique: true",
+      "primary: key",
+      "distinct()",
+      "onlyOne()"
     ],
-    "answer": "Option A",
+    "answer": "unique: true",
     "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
@@ -4342,14 +4202,14 @@
   },
   {
     "id": 269,
-    "question": "[No SQL - Expert - MongoDB Indexes] Question 9?",
+    "question": "What is the default index?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "_id",
+      "index",
+      "main",
+      "auto"
     ],
-    "answer": "Option A",
+    "answer": "_id",
     "multiSelect": false,
     "level": "Expert",
     "technology": "No SQL",
@@ -4357,16 +4217,18 @@
   },
   {
     "id": 270,
-    "question": "[No SQL - Expert - MongoDB Indexes] Question 10?",
+    "question": "Which types of indexes exist?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Single field",
+      "Compound",
+      "Multikey",
+      "Text"
     ],
     "answer": [
-      "Option A",
-      "Option B"
+      "Single field",
+      "Compound",
+      "Multikey",
+      "Text"
     ],
     "multiSelect": true,
     "level": "Expert",
