@@ -1,71 +1,109 @@
-// src/pages/SelectionPage.jsx
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useState } from 'react';
-
-const topicsMap = {
-  Java: ['Java String', 'Java Exception'],
-  SQL: ['SQL Joins', 'SQL Queries'],
-  'No SQL': ['MongoDB Aggregation', 'Cassandra Basics']
-};
+import axios from 'axios';
 
 export default function SelectionPage({ user, setExamDetails }) {
-  const [level, setLevel] = useState('');
-  const [technology, setTechnology] = useState('');
-  const [topic, setTopic] = useState('');
   const navigate = useNavigate();
+  const [questions, setQuestions] = useState([]);
+  const [levels, setLevels] = useState([]);
+  const [technologies, setTechnologies] = useState([]);
+  const [topics, setTopics] = useState([]);
 
-  const handleContinue = () => {
-    setExamDetails({ level, technology, topic });
-    navigate('/quiz');
+  const [selectedLevel, setSelectedLevel] = useState('');
+  const [selectedTech, setSelectedTech] = useState('');
+  const [selectedTopic, setSelectedTopic] = useState('');
+
+  useEffect(() => {
+    axios.get('https://sphuta-quiz-app.vercel.app/api/questions')
+      .then((res) => {
+        const allQuestions = res.data;
+        setQuestions(allQuestions);
+
+        const levelSet = new Set(allQuestions.map(q => q.level));
+        const techSet = new Set(allQuestions.map(q => q.technology));
+
+        setLevels([...levelSet]);
+        setTechnologies([...techSet]);
+      })
+      .catch((err) => console.error('Error loading question data:', err));
+  }, []);
+
+  useEffect(() => {
+    if (selectedTech) {
+      const filtered = questions.filter(q => q.technology === selectedTech);
+      const topicSet = new Set(filtered.map(q => q.topic));
+      setTopics([...topicSet]);
+    }
+  }, [selectedTech, questions]);
+
+  const handleStart = () => {
+    if (selectedLevel && selectedTech && selectedTopic) {
+      setExamDetails({
+        level: selectedLevel,
+        technology: selectedTech,
+        topic: selectedTopic
+      });
+      navigate('/quiz');
+    } else {
+      alert('Please select all fields.');
+    }
   };
 
   return (
-    <div className="w-full max-w-md mx-auto px-4 flex flex-col justify-center min-h-screen text-gray-900 dark:text-white">
-      <h2 className="text-2xl font-bold mb-6 text-center">Welcome, {user}</h2>
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-white">
+      <div className="bg-white dark:bg-gray-700 p-8 rounded shadow-md w-full max-w-md">
+        <h2 className="text-xl font-bold mb-4">Welcome, {user}</h2>
+        <div className="space-y-4">
+          <div>
+            <label className="block mb-1">Exam Level</label>
+            <select
+              value={selectedLevel}
+              onChange={(e) => setSelectedLevel(e.target.value)}
+              className="w-full px-4 py-2 border rounded"
+            >
+              <option value="">Select Level</option>
+              {levels.map((level, index) => (
+                <option key={index} value={level}>{level}</option>
+              ))}
+            </select>
+          </div>
 
-      <label className="mb-2 font-medium">Select Exam Level</label>
-      <select value={level} onChange={(e) => setLevel(e.target.value)} className="mb-4 p-2 border rounded w-full">
-        <option value="">-- Choose Level --</option>
-        <option>Beginner</option>
-        <option>Intermediate</option>
-        <option>Expert</option>
-      </select>
+          <div>
+            <label className="block mb-1">Technology</label>
+            <select
+              value={selectedTech}
+              onChange={(e) => setSelectedTech(e.target.value)}
+              className="w-full px-4 py-2 border rounded"
+            >
+              <option value="">Select Technology</option>
+              {technologies.map((tech, index) => (
+                <option key={index} value={tech}>{tech}</option>
+              ))}
+            </select>
+          </div>
 
-      <label className="mb-2 font-medium">Select Technology</label>
-      <select
-        value={technology}
-        onChange={(e) => {
-          setTechnology(e.target.value);
-          setTopic('');
-        }}
-        className="mb-4 p-2 border rounded w-full"
-      >
-        <option value="">-- Choose Technology --</option>
-        <option>Java</option>
-        <option>SQL</option>
-        <option>No SQL</option>
-      </select>
+          <div>
+            <label className="block mb-1">Topic</label>
+            <select
+              value={selectedTopic}
+              onChange={(e) => setSelectedTopic(e.target.value)}
+              className="w-full px-4 py-2 border rounded"
+            >
+              <option value="">Select Topic</option>
+              {topics.map((topic, index) => (
+                <option key={index} value={topic}>{topic}</option>
+              ))}
+            </select>
+          </div>
 
-      <label className="mb-2 font-medium">Select Topic</label>
-      <select
-        value={topic}
-        onChange={(e) => setTopic(e.target.value)}
-        className="mb-6 p-2 border rounded w-full"
-        disabled={!technology}
-      >
-        <option value="">-- Choose Topic --</option>
-        {topicsMap[technology]?.map((t) => (
-          <option key={t}>{t}</option>
-        ))}
-      </select>
-
-      <button
-        onClick={handleContinue}
-        disabled={!level || !technology || !topic}
-        className="bg-blue-600 text-white py-2 px-4 rounded disabled:opacity-50 w-full"
-      >
-        Continue to Quiz
-      </button>
+          <button
+            onClick={handleStart}
+            className="mt-4 w-full bg-blue-600 text-white px-4 py-2 rounded"
+          >
+            Start Quiz
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
