@@ -1,3 +1,4 @@
+// SelectionPage.jsx
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
@@ -38,28 +39,25 @@ export default function SelectionPage({ user, setExamDetails }) {
 
   const handleStart = () => {
     if (selectedLevel && selectedTech && selectedTopic) {
-      setExamDetails({
-        level: selectedLevel,
-        technology: selectedTech,
-        topic: selectedTopic
-      });
+      setExamDetails({ level: selectedLevel, technology: selectedTech, topic: selectedTopic });
       navigate('/quiz');
     } else {
-      alert('Please select all fields.');
+      alert('Please select all fields');
     }
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-white">
-      <div className="bg-white dark:bg-gray-700 p-8 rounded shadow-md w-full max-w-md">
-        <h2 className="text-xl font-bold mb-4">Welcome, {user}</h2>
-        <div className="space-y-4">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900 px-4">
+      <div className="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-10 w-full max-w-md">
+        <h2 className="text-2xl font-bold text-center mb-8 text-gray-800 dark:text-white">Welcome, <span className="capitalize">{user}</span></h2>
+
+        <div className="space-y-5">
           <div>
-            <label className="block mb-1">Exam Level</label>
+            <label className="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">Exam Level</label>
             <select
               value={selectedLevel}
               onChange={(e) => setSelectedLevel(e.target.value)}
-              className="w-full px-4 py-2 border rounded"
+              className="w-full px-4 py-3 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               <option value="">Select Level</option>
               {levels.map((level, index) => (
@@ -69,11 +67,11 @@ export default function SelectionPage({ user, setExamDetails }) {
           </div>
 
           <div>
-            <label className="block mb-1">Technology</label>
+            <label className="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">Technology</label>
             <select
               value={selectedTech}
               onChange={(e) => setSelectedTech(e.target.value)}
-              className="w-full px-4 py-2 border rounded"
+              className="w-full px-4 py-3 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               <option value="">Select Technology</option>
               {technologies.map((tech, index) => (
@@ -83,11 +81,11 @@ export default function SelectionPage({ user, setExamDetails }) {
           </div>
 
           <div>
-            <label className="block mb-1">Topic</label>
+            <label className="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">Topic</label>
             <select
               value={selectedTopic}
               onChange={(e) => setSelectedTopic(e.target.value)}
-              className="w-full px-4 py-2 border rounded"
+              className="w-full px-4 py-3 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               <option value="">Select Topic</option>
               {topics.map((topic, index) => (
@@ -98,7 +96,7 @@ export default function SelectionPage({ user, setExamDetails }) {
 
           <button
             onClick={handleStart}
-            className="mt-4 w-full bg-blue-600 text-white px-4 py-2 rounded"
+            className="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-3 rounded-md transition shadow"
           >
             Start Quiz
           </button>
